@@ -1,0 +1,33 @@
+mqtt:
+  enabled: true
+  host: 10.13.13.48
+  port: 1883
+
+
+cameras:
+  balcony:
+    ffmpeg:
+      inputs:
+        - path: rtsp://go2rtc:8554/balcony
+          roles: []
+
+  front:
+    ffmpeg:
+      inputs:
+        - path: rtsp://go2rtc:8554/front
+          roles: []
+
+detect:
+  enabled: false
+version: 0.18-0
+semantic_search:
+  enabled: false
+  model_size: small
+face_recognition:
+  enabled: true
+  model_size: small
+lpr:
+  enabled: false
+classification:
+  bird:
+    enabled: false

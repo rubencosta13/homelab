@@ -1,0 +1,8 @@
+2026-01-06 03:20:18.120 UTC [81354] LOG:  could not receive data from client: Connection reset by peer
+2026-01-06 03:27:02.390 UTC [81468] LOG:  could not receive data from client: Connection reset by peer
+2026-01-06 08:44:31.611 UTC [86954] LOG:  could not receive data from client: Connection reset by peer
+2026-01-06 09:16:39.297 UTC [87503] LOG:  could not receive data from client: Connection reset by peer
+2026-01-06 16:00:21.604 UTC [94470] LOG:  could not receive data from client: Connection reset by peer
+2026-01-06 19:00:06.903 UTC [97572] LOG:  could not receive data from client: Connection reset by peer
+2026-01-06 19:56:56.816 UTC [98550] LOG:  could not receive data from client: Connection reset by peer
+2026-01-06 23:55:11.414 UTC [102666] LOG:  could not receive data from client: Connection reset by peer

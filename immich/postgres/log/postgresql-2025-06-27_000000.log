@@ -1,0 +1,6 @@
+2026-05-02 15:26:56.464 UTC [561] LOG:  could not receive data from client: Connection reset by peer
+2026-05-02 15:45:04.690 UTC [1] LOG:  received fast shutdown request
+2026-05-02 15:45:04.704 UTC [1] LOG:  aborting any active transactions
+2026-05-02 15:45:04.716 UTC [1] LOG:  background worker "logical replication launcher" (PID 64) exited with exit code 1
+2026-05-02 15:45:04.734 UTC [59] LOG:  shutting down
+2026-05-02 15:45:04.971 UTC [1] LOG:  database system is shut down

@@ -1,0 +1,3 @@
+2026-01-28 01:35:34.227 UTC [1988] ERROR:  duplicate key value violates unique constraint "UQ_assets_owner_checksum"
+2026-01-28 01:35:34.227 UTC [1988] DETAIL:  Key ("ownerId", checksum)=(f0cbb11a-54ef-4fcd-916a-c70f0d1e5524, \x954da640306970496a9fcd61450db871c5ce848d) already exists.
+2026-01-28 01:35:34.227 UTC [1988] STATEMENT:  insert into "asset" ("ownerId", "libraryId", "checksum", "originalPath", "deviceAssetId", "deviceId", "fileCreatedAt", "fileModifiedAt", "localDateTime", "type", "isFavorite", "duration", "visibility", "originalFileName") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) returning *

@@ -1,0 +1,33 @@
+services:
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    networks:
+      - nginx_default
+    ports:
+      - 8096:8096
+    environment:
+      - TZ=Europe/Lisbon
+    volumes:
+      - ./config:/config
+      - /mnt/nas/#Media/TV:/data/tvshows
+      - /mnt/nas/#Media/Movies:/data/movies
+      - /mnt/nas/#Media/Cartoons:/data/cartoons
+      - /mnt/nas/#Media:/data
+    restart: always
+    cap_add:
+      - SETUID
+      - SETGID
+      - DAC_OVERRIDE
+# volumes:
+#   media_data:
+#     driver_opts:
+#       type: "cifs"
+#       o: "username=root,password=Ruben!Costa1311,uid=1000,gid=1000"
+#       device: "//10.13.13.3/#Media"
+
+
+
+networks:
+  nginx_default:
+    external: true       

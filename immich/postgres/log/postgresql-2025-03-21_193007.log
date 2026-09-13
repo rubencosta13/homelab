@@ -1,0 +1,13 @@
+2025-03-21 19:30:07.269 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2025-03-21 19:30:07.269 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-03-21 19:30:07.269 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2025-03-21 19:30:07.276 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-03-21 19:30:07.287 UTC [28] LOG:  database system was shut down at 2025-03-21 19:30:06 UTC
+[2025-03-21T19:30:07Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2025-03-21T19:30:07Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2025-03-21T19:30:07Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/85b8eee0-acbf-4b74-92da-e3c3444989a2".
+2025-03-21 19:30:07.310 UTC [1] LOG:  database system is ready to accept connections
+[2025-03-21T19:30:07Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/ec5851a2-765e-4777-91d5-b65e85445b97".
+2025-03-21 19:39:25.166 UTC [60] ERROR:  duplicate key value violates unique constraint "UQ_assets_owner_checksum"
+2025-03-21 19:39:25.166 UTC [60] DETAIL:  Key ("ownerId", checksum)=(f0cbb11a-54ef-4fcd-916a-c70f0d1e5524, \x27bcdb072d34c99382d6f941c837dde660337dbf) already exists.
+2025-03-21 19:39:25.166 UTC [60] STATEMENT:  insert into "assets" ("ownerId", "libraryId", "checksum", "originalPath", "deviceAssetId", "deviceId", "fileCreatedAt", "fileModifiedAt", "localDateTime", "type", "isFavorite", "isArchived", "duration", "isVisible", "originalFileName") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) returning *

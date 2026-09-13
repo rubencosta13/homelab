@@ -1,0 +1,23 @@
+---
+services:
+  smokeping:
+    image: lscr.io/linuxserver/smokeping:latest
+    container_name: smokeping
+    hostname: smokeping
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - CACHE_DIR=/tmp
+    volumes:
+      - ./config:/config
+      - ./data:/data
+    restart: unless-stopped
+    networks:
+      - nginx_default
+    dns: 
+      - 10.13.13.4
+
+networks: 
+  nginx_default: 
+    external: true

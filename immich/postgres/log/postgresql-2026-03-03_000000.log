@@ -1,0 +1,32 @@
+2026-03-03 23:13:06.827 UTC [38] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:13:56.734 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-03-03 23:13:56.734 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-03-03 23:14:06.881 UTC [38] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:14:06.887 UTC [39] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-03-03 23:14:06.888 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-03-03 23:14:06.888 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-03-03 23:14:17.039 UTC [15299] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:14:56.774 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-03-03 23:14:56.774 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-03-03 23:15:06.920 UTC [38] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:15:06.926 UTC [39] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-03-03 23:15:06.926 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-03-03 23:15:06.926 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-03-03 23:15:17.074 UTC [15300] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:15:56.812 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-03-03 23:15:56.813 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-03-03 23:16:06.961 UTC [38] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:16:06.967 UTC [39] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-03-03 23:16:06.967 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-03-03 23:16:06.967 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-03-03 23:16:09.374 UTC [39] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-03-03 23:16:09.374 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-03-03 23:16:09.374 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-03-03 23:16:17.109 UTC [15302] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:16:19.515 UTC [15312] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:16:19.515 UTC [15312] STATEMENT:  SELECT COALESCE(SUM(checksum_failures), 0) FROM pg_stat_database
+2026-03-03 23:16:56.852 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-03-03 23:16:56.852 UTC [39] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-03-03 23:17:06.995 UTC [38] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-03 23:17:07.001 UTC [39] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-03-03 23:17:07.001 UTC [39] LOG:  could not close temporary statistic

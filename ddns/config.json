@@ -1,0 +1,92 @@
+{
+  "cloudflare": [
+    {
+      "authentication": {
+        "api_token": "BmjE3mTY_aC3Pl8IUP1O2oua0lUBo-f-_YzuSeS6"
+      },
+      "zone_id": "de9f562080053516eb52a6a1fb67551d",
+      "subdomains": [
+        {
+          "name": "immich",
+          "proxied": true
+        },
+        {
+          "name": "bw",
+          "proxied": true
+        },
+        {
+          "name": "fs",
+          "proxied": true
+        },
+        {
+          "name": "ha",
+          "proxied": true
+        },
+        {
+          "name": "jellyfin",
+          "proxied": true
+        },
+        {
+          "name": "lidarr",
+          "proxied": true
+        },
+        {
+          "name": "metube",
+          "proxied": true
+        },
+        {
+          "name": "ovpn.ruben",
+          "proxied": true
+        },
+        {
+          "name": "pihole-home",
+          "proxied": true
+        },
+        {
+          "name": "ryot",
+          "proxied": true
+        },
+        {
+          "name": "klipper",
+          "proxied": true
+        },
+        {
+          "name": "ping",
+          "proxied": true
+        },
+        {
+          "name": "prowlarr",
+          "proxied": true
+        },
+        {
+          "name": "readarr",
+          "proxied": true
+        },
+        {
+          "name": "syncthing",
+          "proxied": true
+        },
+        {
+          "name": "uptime",
+          "proxied": true
+        },
+        {
+          "name": "speed",
+          "proxied": true
+        },
+        {
+          "name": "k8s-test",
+          "proxied": true
+        },
+        {
+          "name": "ddns",
+          "proxied": false
+        }
+      ]
+    }
+  ],
+  "a": true,
+  "aaaa": true,
+  "purgeUnknownRecords": false,
+  "ttl": 60
+}

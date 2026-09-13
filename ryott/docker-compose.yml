@@ -1,0 +1,27 @@
+services:
+  ryot-db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    container_name: ryot-db
+    networks:
+      - nginx_default
+    volumes:
+      - postgres_storage:/var/lib/postgresql/data
+    env_file: .env
+
+  ryot:
+    image: ignisda/ryot:v8 
+    pull_policy: always
+    container_name: ryot
+    restart: unless-stopped
+    networks:
+      - nginx_default
+    env_file: .env
+     
+volumes:
+  postgres_storage:
+
+
+networks: 
+  nginx_default: 
+    external: true

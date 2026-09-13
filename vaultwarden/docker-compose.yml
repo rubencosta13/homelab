@@ -1,0 +1,14 @@
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    env_file: .env
+    volumes:
+      - ./vw-data:/data                # Mount your local directory for persistent data
+    networks:
+      - nginx_default                  # Connect to the nginx_default network
+    restart: unless-stopped
+
+networks:
+  nginx_default:
+    external: true                    # Use an existing external network

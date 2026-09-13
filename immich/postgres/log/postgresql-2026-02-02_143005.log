@@ -1,0 +1,21 @@
+2026-02-02 14:30:05.498 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2026-02-02 14:30:05.504 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-02-02 14:30:05.504 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-02-02 14:30:06.394 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-02-02 14:30:06.615 UTC [28] LOG:  database system was interrupted; last known up at 2026-02-02 14:08:28 UTC
+[2026-02-02T14:30:06Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2026-02-02T14:30:06Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2026-02-02T14:30:06Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+[2026-02-02T14:30:07Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/71c2a884-29b7-4e33-a945-28dfac840a67".
+2026-02-02 14:30:29.610 UTC [49] FATAL:  the database system is starting up
+2026-02-02 14:30:33.380 UTC [28] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-02-02 14:30:33.394 UTC [28] LOG:  redo starts at 0/9AB18F00
+2026-02-02 14:30:33.394 UTC [28] LOG:  invalid record length at 0/9AB18F38: wanted 24, got 0
+2026-02-02 14:30:33.394 UTC [28] LOG:  redo done at 0/9AB18F00 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-02-02 14:30:33.468 UTC [1] LOG:  database system is ready to accept connections
+2026-02-02 14:30:44.304 UTC [61] LOG:  could not receive data from client: Connection reset by peer
+2026-02-02 18:38:38.422 UTC [1] LOG:  received fast shutdown request
+2026-02-02 18:38:40.002 UTC [1] LOG:  aborting any active transactions
+2026-02-02 18:38:40.010 UTC [1] LOG:  background worker "logical replication launcher" (PID 55) exited with exit code 1
+2026-02-02 18:38:40.100 UTC [50] LOG:  shutting down
+2026-02-02 18:38:41.281 UTC [1] LOG:  database system is shut down

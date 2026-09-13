@@ -1,0 +1,74 @@
+2026-06-17 08:48:46.427 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2026-06-17 08:48:46.440 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-06-17 08:48:46.440 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-06-17 08:48:47.564 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-06-17 08:48:52.145 UTC [28] LOG:  database system was shut down at 2026-06-16 20:30:37 UTC
+[2026-06-17T08:48:53Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2026-06-17T08:48:53Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2026-06-17T08:48:53Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/71c2a884-29b7-4e33-a945-28dfac840a67".
+[2026-06-17T08:48:55Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+2026-06-17 08:48:57.964 UTC [1] LOG:  database system is ready to accept connections
+2026-06-17 08:50:32.058 UTC [72] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 08:53:31.524 UTC [138] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 08:56:00.401 UTC [202] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 08:58:58.931 UTC [267] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:00:28.306 UTC [309] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:06:10.450 UTC [442] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:10:37.701 UTC [548] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:22:00.267 UTC [813] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:22:15.288 UTC [820] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:24:29.085 UTC [878] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:33:08.928 UTC [1075] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:34:08.549 UTC [1097] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 09:56:11.831 UTC [1621] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:00:39.439 UTC [1727] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:00:54.438 UTC [1733] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:04:22.047 UTC [1818] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:08:34.708 UTC [1909] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:15:45.481 UTC [2087] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:27:38.689 UTC [2363] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:32:19.761 UTC [2474] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:40:14.556 UTC [2664] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:47:10.351 UTC [2822] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:50:54.254 UTC [2913] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 10:54:52.185 UTC [3009] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:00:19.625 UTC [3136] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:01:19.465 UTC [3158] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:02:04.033 UTC [3174] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:18:53.646 UTC [3566] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:23:21.311 UTC [3672] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:25:50.406 UTC [3735] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:26:05.898 UTC [3743] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:27:50.070 UTC [3780] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:29:34.437 UTC [3829] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:31:18.166 UTC [3867] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:48:07.916 UTC [4259] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:55:31.784 UTC [4437] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 11:59:29.245 UTC [4533] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 12:02:42.927 UTC [4602] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 12:02:57.969 UTC [4608] LOG:  could not receive data from client: Connection reset by peer
+2026-06-17 12:04:07.676 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-17 12:04:07.676 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-17 12:04:17.824 UTC [45] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-17 12:04:17.829 UTC [46] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-06-17 12:04:17.830 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-17 12:04:17.830 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-17 12:04:26.203 UTC [46] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-06-17 12:04:26.203 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-17 12:04:26.203 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-17 12:04:27.982 UTC [4635] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-17 12:04:36.347 UTC [4648] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-17 12:04:36.347 UTC [4648] STATEMENT:  SELECT COALESCE(SUM(checksum_failures), 0) FROM pg_stat_database
+2026-06-17 12:05:07.711 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-17 12:05:07.711 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-17 12:05:17.863 UTC [45] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-17 12:05:17.868 UTC [46] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-06-17 12:05:17.869 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-17 12:05:17.869 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-17 12:05:28.020 UTC [4666] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-17 12:06:07.755 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-17 12:06:07.755 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-17 12:06:17.900 UTC [45] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-17 12:06:17.930 UTC [46] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-06-17 12:06:17.931 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-17 12:06:17.931 UTC [46] LOG:  c

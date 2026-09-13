@@ -1,0 +1,22 @@
+2026-04-08 13:50:37.223 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2026-04-08 13:50:37.238 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-04-08 13:50:37.238 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-04-08 13:50:37.250 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-04-08 13:50:37.264 UTC [28] LOG:  database system was shut down at 2026-04-08 13:50:22 UTC
+[2026-04-08T13:50:37Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2026-04-08T13:50:37Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2026-04-08T13:50:37Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/71c2a884-29b7-4e33-a945-28dfac840a67".
+[2026-04-08T13:50:37Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+2026-04-08 13:50:37.303 UTC [1] LOG:  database system is ready to accept connections
+2026-04-08 13:52:47.505 UTC [1] LOG:  received fast shutdown request
+2026-04-08 13:52:47.515 UTC [1] LOG:  aborting any active transactions
+2026-04-08 13:52:47.525 UTC [65] FATAL:  terminating connection due to administrator command
+2026-04-08 13:52:47.525 UTC [53] FATAL:  terminating connection due to administrator command
+2026-04-08 13:52:47.525 UTC [63] FATAL:  terminating connection due to administrator command
+2026-04-08 13:52:47.525 UTC [64] FATAL:  terminating connection due to administrator command
+2026-04-08 13:52:47.525 UTC [50] FATAL:  terminating connection due to administrator command
+2026-04-08 13:52:47.525 UTC [51] FATAL:  terminating connection due to administrator command
+2026-04-08 13:52:47.529 UTC [1] LOG:  background worker "logical replication launcher" (PID 47) exited with exit code 1
+2026-04-08 13:52:47.534 UTC [54] FATAL:  terminating connection due to administrator command
+2026-04-08 13:52:47.544 UTC [42] LOG:  shutting down
+2026-04-08 13:52:47.994 UTC [1] LOG:  database system is shut down

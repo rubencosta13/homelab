@@ -1,0 +1,9 @@
+2026-01-01 09:43:08.515 UTC [176243] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-01 09:46:29.230 UTC [176245] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-01 09:47:44.711 UTC [176246] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-01 09:48:38.024 UTC [176247] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-01 09:52:17.759 UTC [176250] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-01 09:53:21.998 UTC [176251] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-01 09:54:35.074 UTC [176252] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-01 09:56:38.793 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-01 10:15:26.570 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding

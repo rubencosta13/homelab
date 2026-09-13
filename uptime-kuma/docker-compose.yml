@@ -1,0 +1,15 @@
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:latest
+    container_name: uptime-kuma
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TZ=Europe/Lisbon  # Set timezone to Lisbon
+    networks:
+      - nginx_default   # Connect to the nginx_default network
+
+networks:
+  nginx_default:
+    external: true       # Use an existing external network

@@ -1,0 +1,62 @@
+2026-06-14 20:55:00.065 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2026-06-14 20:55:00.075 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-06-14 20:55:00.076 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-06-14 20:55:02.065 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-06-14 20:55:08.733 UTC [28] LOG:  database system was shut down at 2026-06-14 20:52:54 UTC
+[2026-06-14T20:55:09Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2026-06-14T20:55:09Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2026-06-14T20:55:09Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+[2026-06-14T20:55:11Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/71c2a884-29b7-4e33-a945-28dfac840a67".
+2026-06-14 20:55:15.444 UTC [1] LOG:  database system is ready to accept connections
+2026-06-14 20:56:23.629 UTC [65] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 20:57:02.598 UTC [73] LOG:  could not send data to client: Broken pipe
+2026-06-14 20:57:02.598 UTC [73] STATEMENT:  select "c"."table_name", "c"."column_name", "c"."data_type", "c"."column_default", "c"."is_nullable", "c"."character_maximum_length", "c"."numeric_precision", "c"."numeric_scale", "c"."datetime_precision", "c"."udt_catalog", "c"."udt_schema", "c"."udt_name", "o"."data_type" as "array_type" from "information_schema"."columns" as "c" left join "information_schema"."element_types" as "o" on "c"."table_catalog" = "o"."object_catalog" and "c"."table_schema" = "o"."object_schema" and "c"."table_name" = "o"."object_name" and "o"."object_type" = 'TABLE' and "c"."dtd_identifier" = "o"."collection_type_identifier" left join "pg_type" as "t" on "t"."typname" = "c"."udt_name" and "c"."data_type" = 'USER-DEFINED' left join "pg_enum" as "e" on "e"."enumtypid" = "t"."oid" where "table_schema" = $1
+2026-06-14 20:57:02.601 UTC [73] FATAL:  connection to client lost
+2026-06-14 20:57:02.601 UTC [73] STATEMENT:  select "c"."table_name", "c"."column_name", "c"."data_type", "c"."column_default", "c"."is_nullable", "c"."character_maximum_length", "c"."numeric_precision", "c"."numeric_scale", "c"."datetime_precision", "c"."udt_catalog", "c"."udt_schema", "c"."udt_name", "o"."data_type" as "array_type" from "information_schema"."columns" as "c" left join "information_schema"."element_types" as "o" on "c"."table_catalog" = "o"."object_catalog" and "c"."table_schema" = "o"."object_schema" and "c"."table_name" = "o"."object_name" and "o"."object_type" = 'TABLE' and "c"."dtd_identifier" = "o"."collection_type_identifier" left join "pg_type" as "t" on "t"."typname" = "c"."udt_name" and "c"."data_type" = 'USER-DEFINED' left join "pg_enum" as "e" on "e"."enumtypid" = "t"."oid" where "table_schema" = $1
+2026-06-14 20:57:28.990 UTC [81] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 20:58:01.428 UTC [92] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:03:17.168 UTC [214] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:04:02.271 UTC [230] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:09:31.124 UTC [358] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:10:00.845 UTC [369] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:12:14.609 UTC [427] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:17:03.310 UTC [538] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:23:15.714 UTC [680] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:24:44.580 UTC [713] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:28:42.873 UTC [809] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:36:20.778 UTC [996] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:43:02.682 UTC [1149] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:43:33.828 UTC [1162] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:43:33.828 UTC [1162] LOG:  unexpected EOF on client connection with an open transaction
+2026-06-14 21:58:43.574 UTC [1517] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 21:59:13.320 UTC [1529] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:14:33.634 UTC [1888] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:19:30.645 UTC [2006] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:22:28.755 UTC [2081] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:27:55.586 UTC [2210] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:29:09.485 UTC [2237] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:30:08.579 UTC [2259] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:30:23.535 UTC [2266] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:32:51.588 UTC [2331] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:37:33.205 UTC [2444] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:40:45.736 UTC [2524] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:42:29.892 UTC [2563] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:49:55.310 UTC [2734] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:53:37.578 UTC [2824] LOG:  could not receive data from client: Connection reset by peer
+2026-06-14 22:54:21.122 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-14 22:54:21.122 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-14 22:54:31.273 UTC [45] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-14 22:54:31.279 UTC [46] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-06-14 22:54:31.279 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-14 22:54:31.279 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-14 22:54:41.426 UTC [2842] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-14 22:55:21.150 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-14 22:55:21.150 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-14 22:55:31.302 UTC [45] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-06-14 22:55:31.308 UTC [46] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-06-14 22:55:31.308 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-14 22:55:31.308 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-14 22:55:36.695 UTC [46] LOG:  could not write temporary statistics file "pg_stat_tmp/db_16384.tmp": No space left on device
+2026-06-14 22:55:36.695 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2026-06-14 22:55:36.695 UTC [46] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2026-06-14 22:55:41.460 UTC [2863] LOG:  using stale sta

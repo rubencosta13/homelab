@@ -1,0 +1,20 @@
+
+services:
+  tubesync:
+    image: ghcr.io/meeb/tubesync
+    container_name: tubesync
+    ports:
+      - "4848:4848" # Access the web UI via http://localhost:4848
+    environment:
+      - TZ=Europe/Lisbon
+    user: 0:0
+    volumes:
+      - ./config:/config
+      - /mnt/#NAS/#Media:/downloads
+    restart: unless-stopped
+    networks:
+      - nginx_default
+
+networks: 
+  nginx_default: 
+    external: true

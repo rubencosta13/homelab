@@ -1,0 +1,21 @@
+services:
+  speedtest-tracker:
+    image: lscr.io/linuxserver/speedtest-tracker:latest
+    container_name: speedtest-tracker
+    restart: unless-stopped
+    environment:
+      - APP_KEY=base64:3s1Uugtw7Qa49+EnP8qLnBLyVV15aqKmoL1aqWfSVJQ=
+      - DB_CONNECTION=sqlite
+      - HOME=/config
+      - SPEEDTEST_PING_URL=1.1.1.1
+      - SPEEDTEST_SCHEDULE=*/20 * * * *
+    volumes:
+      - ./config:/config
+    networks:
+      - nginx_default 
+    dns: 
+      - 1.1.1.1
+
+networks:
+  nginx_default:
+    external: true 

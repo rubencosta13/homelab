@@ -1,0 +1,27 @@
+
+services:
+  go2rtc:
+    image: alexxit/go2rtc:latest
+    container_name: go2rtc
+    restart: unless-stopped
+    ports:
+      - "1984:1984"     # Web UI
+      - "8554:8554"     # RTSP output
+      - "8555:8555/tcp" # WebRTC TCP
+      - "8555:8555/udp" # WebRTC UDP
+    volumes:
+      - ./go2rtc.yaml:/config/go2rtc.yaml:ro   # Your config file
+      - ./data:/data                           # Optional persistent data
+    environment:
+      - TZ=Europe/Lisbon
+
+  frigate:
+    image: ghcr.io/blakeblackshear/frigate:stable
+    container_name: frigate
+    restart: unless-stopped
+    shm_size: "512m"
+    ports:
+      - "5123:5000"
+    volumes:
+      - ./config:/config
+

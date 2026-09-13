@@ -1,0 +1,23 @@
+2026-02-10 11:09:39.863 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2026-02-10 11:09:39.881 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-02-10 11:09:39.881 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-02-10 11:09:40.884 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-02-10 11:09:42.106 UTC [28] LOG:  database system was interrupted; last known up at 2026-02-10 01:04:36 UTC
+[2026-02-10T11:09:42Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2026-02-10T11:09:42Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2026-02-10T11:09:42Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/71c2a884-29b7-4e33-a945-28dfac840a67".
+[2026-02-10T11:09:44Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+2026-02-10 11:10:06.540 UTC [49] FATAL:  the database system is starting up
+2026-02-10 11:10:28.792 UTC [50] FATAL:  the database system is starting up
+2026-02-10 11:10:36.857 UTC [58] FATAL:  the database system is starting up
+2026-02-10 11:10:49.276 UTC [28] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-02-10 11:10:49.320 UTC [28] LOG:  redo starts at 0/9AC137F0
+2026-02-10 11:10:49.321 UTC [28] LOG:  invalid record length at 0/9AC138D8: wanted 24, got 0
+2026-02-10 11:10:49.321 UTC [28] LOG:  redo done at 0/9AC138A0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-02-10 11:10:50.204 UTC [1] LOG:  database system is ready to accept connections
+2026-02-10 11:11:07.036 UTC [77] LOG:  could not receive data from client: Connection reset by peer
+2026-02-10 22:20:47.203 UTC [1] LOG:  received fast shutdown request
+2026-02-10 22:20:48.809 UTC [1] LOG:  aborting any active transactions
+2026-02-10 22:20:48.814 UTC [1] LOG:  background worker "logical replication launcher" (PID 64) exited with exit code 1
+2026-02-10 22:20:48.860 UTC [59] LOG:  shutting down
+2026-02-10 22:20:51.020 UTC [1] LOG:  database system is shut down

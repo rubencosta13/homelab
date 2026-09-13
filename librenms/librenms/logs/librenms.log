@@ -1,0 +1,4 @@
+[2025-01-21T19:57:25][ERROR] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'librenms.ipv4_addresses' doesn't exist (Connection: mysql, SQL: SELECT `device_id` FROM `ipv4_addresses` AS A, `ports` AS I WHERE A.ipv4_address = librenms-syslogng AND I.port_id = A.port_id) (Connection: dbFacile, SQL: SELECT `device_id` FROM `ipv4_addresses` AS A, `ports` AS I WHERE A.ipv4_address = librenms-syslogng AND I.port_id = A.port_id)#0 /opt/librenms/includes/syslog.php(21): dbFetchCell()
+#1 /opt/librenms/includes/syslog.php(60): get_cache()
+#2 /opt/librenms/syslog.php(18): process_syslog()
+#3 {main}  

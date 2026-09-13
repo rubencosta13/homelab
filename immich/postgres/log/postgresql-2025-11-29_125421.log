@@ -1,0 +1,66 @@
+2025-11-29 12:54:21.378 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2025-11-29 12:54:21.381 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-11-29 12:54:21.381 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2025-11-29 12:54:21.780 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-11-29 12:54:22.797 UTC [28] LOG:  database system was interrupted; last known up at 2025-11-29 11:51:14 UTC
+[2025-11-29T12:54:23Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2025-11-29T12:54:23Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2025-11-29T12:54:23Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/8587a0c8-8786-4fee-a66b-117b254a0678".
+[2025-11-29T12:54:24Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+2025-11-29 12:54:48.761 UTC [49] FATAL:  the database system is starting up
+2025-11-29 12:55:19.036 UTC [57] FATAL:  the database system is starting up
+2025-11-29 12:55:22.038 UTC [58] FATAL:  the database system is starting up
+2025-11-29 12:55:37.168 UTC [28] LOG:  database system was not properly shut down; automatic recovery in progress
+2025-11-29 12:55:37.182 UTC [28] LOG:  redo starts at 0/87FF7828
+2025-11-29 12:55:37.182 UTC [28] LOG:  invalid record length at 0/87FF7910: wanted 24, got 0
+2025-11-29 12:55:37.182 UTC [28] LOG:  redo done at 0/87FF78D8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2025-11-29 12:55:37.245 UTC [1] LOG:  database system is ready to accept connections
+2025-11-29 13:31:23.565 UTC [690] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 14:00:29.669 UTC [1187] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 14:04:04.607 UTC [1253] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 14:05:20.531 UTC [1273] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 14:08:05.425 UTC [1327] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 14:30:26.235 UTC [1711] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 14:35:42.231 UTC [1802] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 16:15:50.709 UTC [3537] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 16:18:22.534 UTC [3587] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 16:48:16.226 UTC [4109] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 16:52:53.764 UTC [4191] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 17:01:08.057 UTC [4338] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 17:09:09.396 UTC [4471] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 17:10:25.520 UTC [4491] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 17:27:11.628 UTC [4791] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 17:28:16.586 UTC [4809] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 17:47:37.927 UTC [5143] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 17:51:27.125 UTC [5212] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 17:57:38.760 UTC [5317] LOG:  unexpected EOF on client connection with an open transaction
+2025-11-29 18:07:02.470 UTC [5482] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 18:37:20.740 UTC [6006] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 18:45:51.971 UTC [6145] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 18:50:46.976 UTC [6232] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 18:54:37.454 UTC [6303] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 18:55:16.345 UTC [6314] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 19:19:55.850 UTC [6745] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 19:25:43.839 UTC [6848] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 19:35:17.731 UTC [7016] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 19:36:21.433 UTC [7043] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 20:00:06.386 UTC [7447] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 20:07:31.369 UTC [7580] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 20:41:05.449 UTC [8156] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 20:58:05.251 UTC [8463] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 21:07:26.448 UTC [8626] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 21:10:25.452 UTC [8674] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 21:27:40.335 UTC [8980] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 21:35:04.191 UTC [9105] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 21:50:47.249 UTC [9374] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 21:53:08.002 UTC [9423] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 22:38:14.051 UTC [10200] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 22:45:30.915 UTC [10322] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 22:52:46.571 UTC [10453] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 22:54:03.625 UTC [10473] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 23:14:02.878 UTC [10817] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 23:15:33.068 UTC [10841] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 23:37:30.488 UTC [11229] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 23:40:28.267 UTC [11276] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 23:44:06.801 UTC [11341] LOG:  could not receive data from client: Connection reset by peer
+2025-11-29 23:44:45.511 UTC [11353] LOG:  could not receive data from client: Connection reset by peer

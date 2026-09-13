@@ -1,0 +1,7 @@
+2026-01-07 05:25:24.189 UTC [108372] LOG:  could not receive data from client: Connection reset by peer
+2026-01-07 05:32:34.065 UTC [108492] LOG:  could not receive data from client: Connection reset by peer
+2026-01-07 05:39:21.024 UTC [108607] LOG:  could not receive data from client: Connection reset by peer
+2026-01-07 05:45:27.860 UTC [108721] LOG:  could not receive data from client: Connection reset by peer
+2026-01-07 05:54:56.082 UTC [108888] LOG:  could not receive data from client: Connection reset by peer
+2026-01-07 06:18:22.690 UTC [109289] LOG:  could not receive data from client: Connection reset by peer
+2026-01-07 18:20:12.390 UTC [121764] LOG:  unexpected EOF on client connection with an open transaction

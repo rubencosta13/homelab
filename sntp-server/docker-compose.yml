@@ -1,0 +1,29 @@
+name: "chrony"
+services:
+  chrony-sntp:
+    image: "11notes/chrony:4.7"
+    container_name: chrony
+    read_only: true
+    environment:
+      TZ: "Europe/Lisbon"
+    volumes:
+      - "etc:/chrony/etc"
+    ports:
+      - "123:123/udp"
+    tmpfs:
+      # tmpfs volume because of read_only: true
+      - "/run/chrony:mode=0770,uid=1000,gid=1000"
+    sysctls:
+      # allow rootless container to access ports < 1024
+      net.ipv4.ip_unprivileged_port_start: 123
+    restart: "always"
+    networks:
+      - nginx_default
+
+
+networks: 
+  nginx_default: 
+    external: true
+    
+volumes:
+  etc:

@@ -1,0 +1,504 @@
+2026-04-20 00:08:19.576 UTC [40434] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:09:48.824 UTC [40477] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:16:55.489 UTC [40640] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:19:39.133 UTC [40710] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:20:23.800 UTC [40727] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:26:04.785 UTC [40863] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:30:03.031 UTC [40962] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:30:18.223 UTC [40969] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:32:33.389 UTC [41022] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:34:47.943 UTC [41083] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:39:31.453 UTC [41197] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:43:16.883 UTC [41279] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:43:32.328 UTC [41287] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:44:02.775 UTC [41310] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:45:47.355 UTC [41349] LOG:  could not send data to client: Broken pipe
+2026-04-20 00:45:47.355 UTC [41349] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 00:45:47.355 UTC [41349] FATAL:  connection to client lost
+2026-04-20 00:45:47.355 UTC [41349] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 00:55:23.840 UTC [41578] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:55:23.840 UTC [41578] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 00:57:51.764 UTC [41633] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 00:58:51.076 UTC [41656] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:02:33.193 UTC [41746] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:03:17.628 UTC [41763] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:04:17.298 UTC [41795] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:05:01.719 UTC [41812] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:13:37.563 UTC [42012] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:20:47.865 UTC [42187] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:25:59.959 UTC [42310] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:33:37.989 UTC [42484] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:36:20.213 UTC [42552] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:36:49.942 UTC [42565] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:37:05.012 UTC [42571] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:41:15.861 UTC [42673] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:43:43.857 UTC [42728] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:46:25.524 UTC [42796] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:52:19.666 UTC [42933] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 01:56:14.930 UTC [43029] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:00:26.297 UTC [43130] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:02:39.288 UTC [43179] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:08:03.259 UTC [43305] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:10:47.063 UTC [43376] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:11:02.176 UTC [43382] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:23:37.992 UTC [43675] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:25:37.434 UTC [43728] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:27:06.583 UTC [43760] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:40:40.630 UTC [44084] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:43:25.031 UTC [44143] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:44:55.227 UTC [44186] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 02:45:28.260 UTC [44198] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 02:51:53.997 UTC [44296] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 03:07:57.713 UTC [44673] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 03:10:40.981 UTC [44743] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 03:10:56.042 UTC [44749] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 03:11:26.445 UTC [44761] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 03:27:40.498 UTC [45142] LOG:  could not send data to client: Broken pipe
+2026-04-20 03:27:40.498 UTC [45142] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 03:27:40.498 UTC [45142] FATAL:  connection to client lost
+2026-04-20 03:27:40.498 UTC [45142] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 03:32:06.231 UTC [45248] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 03:37:30.400 UTC [45375] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 03:40:56.744 UTC [45460] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 03:50:33.951 UTC [45687] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 04:03:06.329 UTC [45976] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 04:08:16.613 UTC [46098] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 04:16:11.115 UTC [46290] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 04:20:36.605 UTC [46399] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 04:34:55.360 UTC [46737] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 04:54:08.736 UTC [47183] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 04:55:38.768 UTC [47227] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 04:58:21.998 UTC [47285] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:03:33.169 UTC [47408] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:04:18.210 UTC [47435] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:04:33.715 UTC [47442] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:07:02.806 UTC [47497] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:09:02.630 UTC [47540] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:21:50.260 UTC [47848] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:27:43.443 UTC [47985] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:37:21.065 UTC [48212] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:43:30.604 UTC [48355] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:44:00.368 UTC [48367] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:47:11.872 UTC [48447] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:49:54.117 UTC [48516] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 05:58:28.440 UTC [48711] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 06:20:48.874 UTC [49245] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 06:29:39.241 UTC [49454] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 06:34:34.104 UTC [49570] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 06:43:23.885 UTC [49770] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 06:54:39.983 UTC [50044] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 06:56:23.548 UTC [50082] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:13:18.547 UTC [50475] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:39:20.480 UTC [51084] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:46:14.465 UTC [51252] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:49:11.556 UTC [51317] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:52:23.411 UTC [51397] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:53:52.184 UTC [51430] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:56:19.514 UTC [51494] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:59:01.678 UTC [51553] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 07:59:31.188 UTC [51574] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:12:04.870 UTC [51864] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:16:36.998 UTC [51970] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:16:52.018 UTC [51977] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:17:08.004 UTC [51984] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:17:23.307 UTC [51990] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:20:25.010 UTC [52065] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 08:21:40.508 UTC [52092] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:24:10.576 UTC [52146] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:35:33.682 UTC [52424] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:36:47.598 UTC [52452] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:38:45.731 UTC [52495] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:41:28.108 UTC [52565] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:49:50.342 UTC [52767] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:51:33.939 UTC [52804] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 08:54:15.986 UTC [52864] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:00:40.142 UTC [53023] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:11:20.332 UTC [53273] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:13:06.764 UTC [53311] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:13:38.246 UTC [53322] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:13:53.651 UTC [53330] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:14:39.384 UTC [53357] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:15:24.445 UTC [53374] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:18:56.160 UTC [53449] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:19:56.337 UTC [53481] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:20:42.093 UTC [53497] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:21:27.098 UTC [53514] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:25:29.089 UTC [53610] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:25:44.440 UTC [53616] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:31:48.146 UTC [53757] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:37:35.878 UTC [53890] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:38:06.285 UTC [53902] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:39:21.398 UTC [53929] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:41:06.944 UTC [53977] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:43:23.047 UTC [54025] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:44:23.939 UTC [54050] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:46:10.067 UTC [54101] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:53:30.321 UTC [54267] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:54:45.943 UTC [54304] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:59:16.715 UTC [54401] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 09:59:48.036 UTC [54422] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:02:05.002 UTC [54472] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:04:21.640 UTC [54520] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:07:37.651 UTC [54600] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:17:42.603 UTC [54835] LOG:  could not send data to client: Broken pipe
+2026-04-20 10:17:42.603 UTC [54835] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 10:17:42.603 UTC [54835] FATAL:  connection to client lost
+2026-04-20 10:17:42.603 UTC [54835] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 10:19:28.508 UTC [54873] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:23:00.146 UTC [54962] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:31:49.715 UTC [55172] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:32:05.086 UTC [55180] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:32:35.447 UTC [55191] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:33:36.553 UTC [55216] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:33:52.464 UTC [55224] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:38:25.036 UTC [55330] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:40:40.870 UTC [55390] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:45:29.544 UTC [55503] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:46:59.727 UTC [55536] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:47:46.299 UTC [55552] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:51:17.483 UTC [55639] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:51:32.599 UTC [55645] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:51:47.597 UTC [55651] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:52:02.637 UTC [55658] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:52:17.957 UTC [55664] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:53:48.971 UTC [55697] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:54:49.180 UTC [55730] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 10:55:19.744 UTC [55743] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:12:30.625 UTC [56143] LOG:  could not send data to client: Broken pipe
+2026-04-20 11:12:30.625 UTC [56143] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 11:12:30.626 UTC [56143] FATAL:  connection to client lost
+2026-04-20 11:12:30.626 UTC [56143] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 11:13:46.240 UTC [56170] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:16:48.501 UTC [56246] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:17:04.498 UTC [56254] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:17:04.498 UTC [56254] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 11:17:49.946 UTC [56270] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:21:21.305 UTC [56356] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:21:51.772 UTC [56367] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:24:08.624 UTC [56416] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:28:11.408 UTC [56512] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:28:58.083 UTC [56530] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:30:59.608 UTC [56583] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:32:31.417 UTC [56616] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:34:17.284 UTC [56654] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:35:17.789 UTC [56687] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:36:18.067 UTC [56709] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:41:21.632 UTC [56825] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:41:36.689 UTC [56831] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:43:22.509 UTC [56870] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:46:23.986 UTC [56945] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:47:09.428 UTC [56962] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:49:40.345 UTC [57026] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:52:57.179 UTC [57098] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 11:59:45.709 UTC [57261] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:05:34.413 UTC [57396] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:05:49.891 UTC [57402] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:06:35.875 UTC [57420] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:07:21.954 UTC [57437] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:10:26.739 UTC [57512] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:11:12.313 UTC [57530] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:13:42.850 UTC [57583] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:13:58.132 UTC [57590] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:15:13.893 UTC [57627] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:16:44.627 UTC [57660] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 12:18:00.864 UTC [57689] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:20:16.940 UTC [57747] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:20:48.210 UTC [57759] LOG:  could not send data to client: Broken pipe
+2026-04-20 12:20:48.210 UTC [57759] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 12:20:48.210 UTC [57759] FATAL:  connection to client lost
+2026-04-20 12:20:48.210 UTC [57759] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 12:22:35.718 UTC [57803] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:23:05.922 UTC [57815] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:24:36.387 UTC [57848] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:24:51.701 UTC [57864] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:25:52.750 UTC [57886] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:27:24.745 UTC [57919] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:29:57.265 UTC [57982] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:30:12.626 UTC [57989] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:30:58.148 UTC [58005] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:33:59.945 UTC [58070] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:35:15.999 UTC [58108] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:35:31.955 UTC [58115] LOG:  could not send data to client: Broken pipe
+2026-04-20 12:35:31.955 UTC [58115] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 12:35:31.955 UTC [58115] FATAL:  connection to client lost
+2026-04-20 12:35:31.955 UTC [58115] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 12:36:02.006 UTC [58128] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:36:32.450 UTC [58139] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:37:33.226 UTC [58161] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:38:18.767 UTC [58178] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:42:06.363 UTC [58271] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:42:21.738 UTC [58277] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:45:53.635 UTC [58363] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:48:09.483 UTC [58412] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:48:55.264 UTC [58428] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:54:57.968 UTC [58577] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:55:13.456 UTC [58584] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:55:28.630 UTC [58590] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:57:14.723 UTC [58628] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:58:45.823 UTC [58662] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 12:58:45.823 UTC [58662] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 13:00:01.130 UTC [58700] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:01:17.278 UTC [58727] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:02:02.538 UTC [58745] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:04:04.402 UTC [58789] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:04:34.931 UTC [58800] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:08:53.627 UTC [58902] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:13:57.246 UTC [59021] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:14:12.838 UTC [59029] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:14:43.743 UTC [59051] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 13:20:18.480 UTC [59179] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:22:34.862 UTC [59229] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:24:50.972 UTC [59287] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:25:37.287 UTC [59304] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:26:38.187 UTC [59327] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:26:53.853 UTC [59333] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:29:10.904 UTC [59383] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:30:42.952 UTC [59428] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 13:31:28.584 UTC [59445] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:37:19.488 UTC [59581] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:38:05.883 UTC [59599] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:48:13.196 UTC [59832] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:49:14.068 UTC [59854] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:50:00.318 UTC [59880] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:54:49.816 UTC [59992] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:55:36.555 UTC [60013] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 13:58:08.738 UTC [60069] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:01:41.878 UTC [60154] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:01:57.563 UTC [60160] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:06:29.805 UTC [60267] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:07:00.456 UTC [60279] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:13:06.668 UTC [60427] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:16:54.868 UTC [60517] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:17:40.707 UTC [60534] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:17:56.006 UTC [60540] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:23:46.064 UTC [60676] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:25:02.450 UTC [60714] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:30:51.195 UTC [60847] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:31:36.496 UTC [60864] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:36:09.436 UTC [60971] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:37:26.275 UTC [61000] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:37:56.505 UTC [61011] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:40:43.776 UTC [61081] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:41:44.421 UTC [61103] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:42:30.385 UTC [61120] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:43:45.899 UTC [61148] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:45:17.142 UTC [61192] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:45:47.534 UTC [61203] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:47:18.642 UTC [61236] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:48:35.260 UTC [61263] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:50:36.561 UTC [61318] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:51:37.583 UTC [61341] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:53:08.839 UTC [61375] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:55:26.802 UTC [61433] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:55:57.534 UTC [61444] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:57:44.031 UTC [61485] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:58:14.757 UTC [61498] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 14:59:31.341 UTC [61526] LOG:  could not send data to client: Broken pipe
+2026-04-20 14:59:31.341 UTC [61526] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 14:59:31.341 UTC [61526] FATAL:  connection to client lost
+2026-04-20 14:59:31.341 UTC [61526] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 15:00:47.381 UTC [61564] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:02:34.997 UTC [61604] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:04:06.132 UTC [61636] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:06:37.820 UTC [61701] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:07:08.403 UTC [61714] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:08:24.468 UTC [61741] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:13:57.337 UTC [61867] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:16:44.810 UTC [61936] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:29:27.721 UTC [62227] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:32:47.853 UTC [62309] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:39:40.057 UTC [62466] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:42:11.852 UTC [62530] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:42:27.056 UTC [62536] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:47:17.488 UTC [62649] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:48:34.216 UTC [62676] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 15:53:38.543 UTC [62792] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:08:20.822 UTC [63130] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:10:07.880 UTC [63177] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:11:40.252 UTC [63211] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:12:25.874 UTC [63228] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:16:30.607 UTC [63325] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:17:16.994 UTC [63342] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:17:32.155 UTC [63348] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:22:22.965 UTC [63464] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:23:08.226 UTC [63480] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:26:27.781 UTC [63562] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:26:58.363 UTC [63574] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:27:59.045 UTC [63596] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:29:00.296 UTC [63619] LOG:  could not send data to client: Broken pipe
+2026-04-20 16:29:00.296 UTC [63619] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 16:29:00.296 UTC [63619] FATAL:  connection to client lost
+2026-04-20 16:29:00.296 UTC [63619] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 16:32:47.910 UTC [63709] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:33:33.619 UTC [63726] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:42:28.903 UTC [63941] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:44:30.184 UTC [63984] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:46:48.023 UTC [64043] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:47:48.615 UTC [64065] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:48:34.784 UTC [64083] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:49:05.089 UTC [64094] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:50:06.888 UTC [64127] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:51:23.499 UTC [64155] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:52:24.512 UTC [64179] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:54:25.963 UTC [64222] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:55:12.045 UTC [64249] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:55:27.465 UTC [64256] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:58:45.928 UTC [64326] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 16:59:31.683 UTC [64344] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 17:10:24.263 UTC [64603] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:11:09.697 UTC [64620] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:11:09.697 UTC [64620] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 17:12:25.375 UTC [64648] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:12:55.730 UTC [64659] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:15:43.668 UTC [64730] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:16:59.621 UTC [64759] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:20:16.217 UTC [64839] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:23:02.838 UTC [64898] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:25:05.288 UTC [64955] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:25:51.546 UTC [64973] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:25:51.546 UTC [64973] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 17:26:22.532 UTC [64985] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:26:53.264 UTC [64996] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:31:25.639 UTC [65102] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:31:55.853 UTC [65113] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:33:27.318 UTC [65146] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:35:59.146 UTC [65210] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:37:45.545 UTC [65248] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:39:00.851 UTC [65275] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:42:17.974 UTC [65356] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:44:50.075 UTC [65409] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:45:20.593 UTC [65432] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:47:07.659 UTC [65470] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:49:08.906 UTC [65513] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:51:57.096 UTC [65583] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:54:29.251 UTC [65639] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:54:29.251 UTC [65639] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 17:54:44.677 UTC [65645] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:59:02.320 UTC [65747] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 17:59:48.477 UTC [65765] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:00:03.865 UTC [65781] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:01:35.428 UTC [65816] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:03:51.708 UTC [65864] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:06:53.955 UTC [65939] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:06:53.955 UTC [65939] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 18:08:40.061 UTC [65977] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:10:56.711 UTC [66035] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:26:06.865 UTC [66385] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:26:37.391 UTC [66398] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:26:52.710 UTC [66404] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:29:09.795 UTC [66453] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:33:13.830 UTC [66550] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:37:18.795 UTC [66649] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:38:34.742 UTC [66676] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:39:51.060 UTC [66703] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:40:21.578 UTC [66726] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:40:36.902 UTC [66732] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:41:07.001 UTC [66744] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:44:10.062 UTC [66809] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:45:11.968 UTC [66843] LOG:  could not send data to client: Broken pipe
+2026-04-20 18:45:11.968 UTC [66843] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 18:45:11.968 UTC [66843] FATAL:  connection to client lost
+2026-04-20 18:45:11.968 UTC [66843] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 18:45:27.383 UTC [66850] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:47:28.940 UTC [66893] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:54:50.487 UTC [67058] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 18:58:39.974 UTC [67151] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:02:44.447 UTC [67247] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:06:48.279 UTC [67343] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:07:33.792 UTC [67360] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:08:50.920 UTC [67388] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:09:06.385 UTC [67394] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:09:37.342 UTC [67406] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:10:38.037 UTC [67438] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:12:25.726 UTC [67476] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:13:11.454 UTC [67492] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:14:43.090 UTC [67526] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:15:13.891 UTC [67548] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:15:59.911 UTC [67565] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:16:15.249 UTC [67571] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:17:01.775 UTC [67590] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:17:47.426 UTC [67607] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:20:03.702 UTC [67656] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:24:53.689 UTC [67769] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:30:44.517 UTC [67912] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:31:00.068 UTC [67919] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:37:20.889 UTC [68067] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:39:21.574 UTC [68110] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:42:41.594 UTC [68191] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:43:43.118 UTC [68215] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:46:30.786 UTC [68285] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:47:01.466 UTC [68297] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:48:02.946 UTC [68319] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:53:22.674 UTC [68442] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:53:53.094 UTC [68453] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:55:39.990 UTC [68502] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:56:10.814 UTC [68514] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:56:41.032 UTC [68526] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 19:59:58.861 UTC [68597] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:01:14.664 UTC [68635] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:05:18.728 UTC [68733] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:11:27.437 UTC [68878] LOG:  could not send data to client: Broken pipe
+2026-04-20 20:11:27.437 UTC [68878] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 20:11:27.437 UTC [68878] FATAL:  connection to client lost
+2026-04-20 20:11:27.437 UTC [68878] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-04-20 20:13:30.973 UTC [68925] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:18:36.013 UTC [69043] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:23:56.145 UTC [69168] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:25:42.382 UTC [69216] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:26:43.479 UTC [69238] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:29:15.431 UTC [69291] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:31:17.146 UTC [69345] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:34:20.802 UTC [69411] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 20:37:08.824 UTC [69480] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:38:25.193 UTC [69508] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:47:17.799 UTC [69716] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:47:48.343 UTC [69728] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:48:03.979 UTC [69734] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:48:35.023 UTC [69747] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:51:23.475 UTC [69815] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:53:41.507 UTC [69866] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:55:30.524 UTC [69914] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 20:58:16.948 UTC [69972] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:01:34.881 UTC [70055] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:01:50.230 UTC [70061] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:02:20.822 UTC [70072] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:03:52.568 UTC [70107] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:08:41.586 UTC [70220] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:10:43.314 UTC [70273] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:11:58.700 UTC [70302] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:14:00.454 UTC [70347] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:14:16.378 UTC [70354] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:15:32.617 UTC [70394] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:17:18.947 UTC [70432] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:18:50.124 UTC [70465] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:19:50.731 UTC [70487] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:20:21.222 UTC [70508] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:21:21.773 UTC [70530] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:23:08.365 UTC [70568] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:25:42.219 UTC [70633] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:39:13.978 UTC [70942] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:41:25.701 UTC [71000] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:46:47.753 UTC [71128] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:51:42.776 UTC [71244] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 21:59:33.358 UTC [71424] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 22:01:01.908 UTC [71468] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 22:01:01.908 UTC [71468] LOG:  unexpected EOF on client connection with an open transaction
+2026-04-20 22:02:30.570 UTC [71501] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 22:09:20.929 UTC [71658] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 22:33:08.097 UTC [72220] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 22:37:17.522 UTC [72320] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 22:39:45.173 UTC [72374] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 22:51:45.188 UTC [72664] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 22:56:38.610 UTC [72780] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:04:57.206 UTC [72970] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:13:03.566 UTC [73165] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:13:33.061 UTC [73177] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:15:00.825 UTC [73209] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:21:23.851 UTC [73367] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:21:38.639 UTC [73374] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:25:48.842 UTC [73474] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:45:10.472 UTC [73923] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:52:45.739 UTC [74108] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:53:44.556 UTC [74130] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:57:24.456 UTC [74220] LOG:  could not receive data from client: Connection reset by peer
+2026-04-20 23:59:37.334 UTC [74269] LOG:  could not receive data from client: Connection reset by peer

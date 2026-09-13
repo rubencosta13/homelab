@@ -1,0 +1,40 @@
+2025-03-28 01:34:23.074 UTC [25453] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 01:35:19.049 UTC [25494] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 01:35:19.050 UTC [25494] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 01:35:32.935 UTC [25516] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 01:35:32.936 UTC [25516] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 01:35:46.808 UTC [25526] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 01:35:46.808 UTC [25526] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 01:36:00.585 UTC [25539] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 05:40:26.000 UTC [36402] LOG:  incomplete message from client
+2025-03-28 06:40:15.420 UTC [39065] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 06:40:15.420 UTC [39064] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 06:40:15.422 UTC [39066] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 07:00:34.499 UTC [39978] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 07:00:34.499 UTC [39964] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 07:00:34.499 UTC [39964] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 07:00:34.499 UTC [39980] LOG:  incomplete message from client
+2025-03-28 07:00:34.499 UTC [39979] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 07:00:34.500 UTC [39974] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 07:00:34.499 UTC [39973] LOG:  incomplete message from client
+2025-03-28 07:40:20.367 UTC [41748] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 11:20:22.807 UTC [51515] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 12:20:22.869 UTC [54182] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 12:20:22.869 UTC [54187] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 12:20:22.869 UTC [54187] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 12:20:22.869 UTC [54191] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 12:20:22.869 UTC [54191] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 12:20:22.872 UTC [54190] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 12:20:22.872 UTC [54190] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 12:20:22.869 UTC [54188] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 12:20:22.873 UTC [54188] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 12:40:14.472 UTC [55073] LOG:  incomplete message from client
+2025-03-28 12:41:41.131 UTC [55142] LOG:  could not receive data from client: Connection reset by peer
+2025-03-28 12:41:41.131 UTC [55142] LOG:  unexpected EOF on client connection with an open transaction
+2025-03-28 14:00:29.707 UTC [58640] LOG:  incomplete message from client
+2025-03-28 14:40:23.308 UTC [60415] LOG:  incomplete message from client
+2025-03-28 17:36:14.902 UTC [1] LOG:  received fast shutdown request
+2025-03-28 17:36:14.909 UTC [1] LOG:  aborting any active transactions
+2025-03-28 17:36:14.919 UTC [1] LOG:  background worker "logical replication launcher" (PID 35) exited with exit code 1
+2025-03-28 17:36:15.235 UTC [30] LOG:  shutting down
+2025-03-28 17:36:15.381 UTC [1] LOG:  database system is shut down

@@ -1,0 +1,177 @@
+2026-01-02 01:55:13.040 UTC [179063] LOG:  could not send data to client: Broken pipe
+2026-01-02 01:55:13.061 UTC [179063] FATAL:  connection to client lost
+2026-01-02 03:51:22.568 UTC [179348] LOG:  could not send data to client: Broken pipe
+2026-01-02 03:51:23.026 UTC [179348] FATAL:  connection to client lost
+2026-01-02 04:59:35.036 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:03:14.743 UTC [179447] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:08:26.426 UTC [179451] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:08:26.426 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:14:36.800 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:17:14.525 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:17:40.109 UTC [179457] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:20:15.470 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:20:55.168 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:23:45.515 UTC [179458] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:23:47.181 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:25:23.830 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 05:25:42.842 UTC [179460] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 05:28:55.735 UTC [179459] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:28:55.735 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:36:58.895 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 05:37:08.067 UTC [179461] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:37:35.178 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:37:51.766 UTC [179463] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 05:38:34.459 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:41:41.147 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:42:50.742 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:48:36.390 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 05:49:45.564 UTC [179465] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 05:57:20.508 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:59:02.556 UTC [179467] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 05:59:03.237 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 05:59:10.903 UTC [179469] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 06:10:51.860 UTC [179487] LOG:  could not receive data from client: Connection reset by peer
+2026-01-02 06:46:34.407 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 06:46:47.530 UTC [179531] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 06:53:07.198 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 06:54:03.243 UTC [179533] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 06:56:31.624 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 06:57:32.413 UTC [179534] ERROR:  canceling autovacuum task
+2026-01-02 06:59:37.315 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 07:00:27.602 UTC [179536] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 07:17:54.949 UTC [179553] ERROR:  canceling autovacuum task
+2026-01-02 07:20:37.380 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 07:46:55.375 UTC [179569] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 08:09:54.991 UTC [179576] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 08:20:17.630 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 08:20:27.124 UTC [179581] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 08:22:59.150 UTC [179580] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 08:38:28.337 UTC [179584] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 08:41:02.689 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 08:41:25.550 UTC [179586] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 08:41:54.642 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 08:58:07.570 UTC [179595] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 09:01:03.359 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 09:01:19.168 UTC [179598] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 09:04:34.707 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 09:11:31.779 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 09:11:39.299 UTC [179602] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 09:14:50.791 UTC [179601] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 09:32:58.108 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 09:37:53.102 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 09:38:36.304 UTC [179612] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 09:42:58.883 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 09:43:40.973 UTC [179613] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 09:50:47.505 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 09:51:59.963 UTC [179614] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 09:52:06.222 UTC [179610] ERROR:  canceling autovacuum task
+2026-01-02 10:33:50.675 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 10:34:36.563 UTC [179630] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 10:57:45.041 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 10:58:54.458 UTC [179635] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 11:04:00.021 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 11:08:18.866 UTC [179634] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 11:14:45.411 UTC [63] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-01-02 11:15:59.339 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 11:17:09.417 UTC [179638] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 11:28:17.944 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 11:29:14.459 UTC [179640] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 11:41:27.816 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 11:42:08.668 UTC [179642] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 11:57:23.732 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 11:58:56.482 UTC [179644] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 12:05:21.430 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 12:06:53.651 UTC [179645] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 12:21:54.450 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 12:23:26.100 UTC [179648] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 12:29:34.319 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 12:30:38.794 UTC [179649] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 12:44:26.660 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 12:45:58.570 UTC [179651] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 12:56:38.506 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 12:57:02.263 UTC [179653] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 13:04:36.981 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 13:05:40.166 UTC [179654] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 13:13:00.613 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 13:15:22.047 UTC [179655] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 13:32:19.778 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 13:32:50.166 UTC [179658] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 13:38:33.688 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 13:39:14.069 UTC [179659] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 13:55:45.190 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 13:56:14.758 UTC [179662] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 14:02:44.762 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 14:03:34.286 UTC [179663] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 14:15:19.688 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 14:16:05.224 UTC [179665] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 14:27:01.104 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 14:29:06.654 UTC [179667] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 14:39:52.035 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 14:40:27.136 UTC [179669] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 14:45:54.757 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 14:46:05.913 UTC [179670] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 14:55:36.179 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 14:55:56.767 UTC [179672] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 15:18:06.956 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 15:18:17.936 UTC [179675] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 15:23:38.051 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 15:23:56.410 UTC [179676] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 15:27:20.884 UTC [179674] ERROR:  canceling autovacuum task
+2026-01-02 15:38:14.364 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 15:39:25.031 UTC [179679] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 15:46:17.733 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 15:48:00.849 UTC [179680] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 16:04:19.932 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 16:04:57.437 UTC [179683] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 16:11:02.883 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 16:11:53.763 UTC [179684] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 16:17:11.537 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 16:18:23.813 UTC [179685] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 16:27:14.806 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 16:27:22.262 UTC [179686] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 16:41:01.000 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 16:41:14.071 UTC [179689] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 16:47:12.026 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 16:48:09.083 UTC [179690] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 16:55:08.957 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 16:56:29.287 UTC [179691] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 17:08:52.009 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 17:09:05.098 UTC [179693] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 17:19:54.108 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 17:21:29.127 UTC [179695] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 17:30:45.551 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 17:32:02.540 UTC [179696] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 17:45:17.600 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 17:45:40.122 UTC [179698] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 17:52:41.734 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 17:52:52.966 UTC [179699] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 18:08:58.988 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 18:09:23.155 UTC [179702] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 18:22:56.408 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 18:24:12.209 UTC [179704] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 18:34:16.889 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 18:35:49.130 UTC [179706] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 18:46:43.076 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 18:50:20.032 UTC [179708] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 19:05:10.124 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 19:07:37.435 UTC [179710] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 19:14:27.201 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 19:16:28.064 UTC [179711] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 19:29:30.524 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 19:31:12.956 UTC [179713] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 19:36:50.326 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 19:37:15.830 UTC [179714] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 19:46:59.479 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 19:48:16.418 UTC [179716] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 19:55:00.841 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 19:56:29.019 UTC [179717] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 20:07:48.937 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 20:08:31.744 UTC [179719] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 20:18:34.491 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 20:19:02.014 UTC [179721] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 20:26:38.199 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 20:28:11.135 UTC [179722] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 20:38:02.094 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 20:38:23.054 UTC [179724] WARNING:  autovacuum worker started without a worker entry
+2026-01-02 20:45:28.572 UTC [63] WARNING:  worker took too long to start; canceled
+2026-01-02 20:48:25.709 UTC [179725] WARNING:  autovacuum worker started without a worker entry

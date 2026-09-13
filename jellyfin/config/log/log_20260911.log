@@ -1,0 +1,351 @@
+[2026-09-11 02:00:01.001 +01:00] [INF] [78] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-09-12 02:00:00.000 +01:00, which is 23:59:58.9981912 from now.
+[2026-09-11 02:00:01.787 +01:00] [INF] [74] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 1 seconds
+[2026-09-11 03:00:01.002 +01:00] [INF] [24] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-09-12 03:00:00.000 +01:00, which is 23:59:58.9979742 from now.
+[2026-09-11 03:00:03.333 +01:00] [INF] [81] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 3 seconds
+[2026-09-11 03:06:21.480 +01:00] [INF] [82] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Vacuuming and analyzing jellyfin.db...
+[2026-09-11 03:06:21.942 +01:00] [INF] [82] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-09-11 03:06:21.943 +01:00] [INF] [82] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:21.568 +01:00] [INF] [78] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/Cartoons"
+[2026-09-11 09:06:21.569 +01:00] [INF] [78] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/data/TV"
+[2026-09-11 09:06:21.572 +01:00] [INF] [78] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-09-11 09:06:22.025 +01:00] [WRN] [78] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course"": "Could not find a part of the path '/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course'."
+[2026-09-11 09:06:22.026 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.027 +01:00] [WRN] [78] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Music/Monroe Institute/More Meditations"": "Could not find a part of the path '/data/Music/Monroe Institute/More Meditations'."
+[2026-09-11 09:06:22.027 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Music/Monroe Institute/More Meditations" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.027 +01:00] [WRN] [78] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Courses/Inner Circle Trader"": "Could not find a part of the path '/data/Courses/Inner Circle Trader'."
+[2026-09-11 09:06:22.027 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Courses/Inner Circle Trader" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.028 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/TV" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.029 +01:00] [WRN] [78] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Music/Monroe Institute/The Gateway Experience"": "Could not find a part of the path '/data/Music/Monroe Institute/The Gateway Experience'."
+[2026-09-11 09:06:22.029 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Music/Monroe Institute/The Gateway Experience" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.029 +01:00] [WRN] [78] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Movies/Mom'sMarriage"": "Could not find a part of the path '/data/Movies/Mom'sMarriage'."
+[2026-09-11 09:06:22.029 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Movies/Mom'sMarriage" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.030 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/movies" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.030 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Cartoons" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.030 +01:00] [WRN] [78] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Audios/Neville Goddard"": "Could not find a part of the path '/data/Audios/Neville Goddard'."
+[2026-09-11 09:06:22.031 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Audios/Neville Goddard" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.037 +01:00] [WRN] [78] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.154 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Audios/Neville Goddard"
+[2026-09-11 09:06:22.154 +01:00] [WRN] [23] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course"
+[2026-09-11 09:06:22.154 +01:00] [WRN] [81] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Music/Monroe Institute/More Meditations"
+[2026-09-11 09:06:22.154 +01:00] [WRN] [25] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Courses/Inner Circle Trader"
+[2026-09-11 09:06:22.154 +01:00] [WRN] [30] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Music/Monroe Institute/The Gateway Experience"
+[2026-09-11 09:06:22.154 +01:00] [WRN] [79] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Movies/Mom'sMarriage"
+[2026-09-11 09:06:22.281 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Music/Monroe Institute/The Gateway Experience"
+[2026-09-11 09:06:22.282 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Courses/Inner Circle Trader"
+[2026-09-11 09:06:22.284 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Movies/Mom'sMarriage"
+[2026-09-11 09:06:22.285 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Music/Monroe Institute/More Meditations"
+[2026-09-11 09:06:22.288 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Audios/Neville Goddard"
+[2026-09-11 09:06:22.293 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course"
+[2026-09-11 09:06:22.341 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course"": "Could not find a part of the path '/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course'."
+[2026-09-11 09:06:22.341 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.341 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Music/Monroe Institute/More Meditations"": "Could not find a part of the path '/data/Music/Monroe Institute/More Meditations'."
+[2026-09-11 09:06:22.341 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Music/Monroe Institute/More Meditations" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.342 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Courses/Inner Circle Trader"": "Could not find a part of the path '/data/Courses/Inner Circle Trader'."
+[2026-09-11 09:06:22.342 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Courses/Inner Circle Trader" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.342 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/TV" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.343 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Music/Monroe Institute/The Gateway Experience"": "Could not find a part of the path '/data/Music/Monroe Institute/The Gateway Experience'."
+[2026-09-11 09:06:22.343 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Music/Monroe Institute/The Gateway Experience" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.343 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Movies/Mom'sMarriage"": "Could not find a part of the path '/data/Movies/Mom'sMarriage'."
+[2026-09-11 09:06:22.343 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Movies/Mom'sMarriage" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.343 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/movies" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.344 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Cartoons" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.344 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Failed to enumerate path ""/data/Audios/Neville Goddard"": "Could not find a part of the path '/data/Audios/Neville Goddard'."
+[2026-09-11 09:06:22.344 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/data/Audios/Neville Goddard" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.345 +01:00] [WRN] [80] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/data/playlists" is inaccessible or empty, skipping
+[2026-09-11 09:06:22.355 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running 8 post-scan task(s)
+[2026-09-11 09:06:22.355 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 1/8: "SplashscreenPostScanTask"
+[2026-09-11 09:06:22.382 +01:00] [INF] [86] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Media Segment Scan" Completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:35.728 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "SplashscreenPostScanTask" completed after 0 minute(s) and 13 seconds
+[2026-09-11 09:06:35.728 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 2/8: "ArtistsPostScanTask"
+[2026-09-11 09:06:35.886 +01:00] [INF] [80] Emby.Server.Implementations.Library.Validators.ArtistsValidator: Refreshed metadata for 0 new artists out of 22 total
+[2026-09-11 09:06:36.046 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "ArtistsPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:36.046 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 3/8: "CollectionPosterVerifyPostScanTask"
+[2026-09-11 09:06:36.051 +01:00] [WRN] [80] Emby.Server.Implementations.IO.ManagedFileSystem: Directory does not exist: "/data/Audios/Neville Goddard"
+[2026-09-11 09:06:36.055 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "CollectionPosterVerifyPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:36.055 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 4/8: "CollectionPostScanTask"
+[2026-09-11 09:06:36.060 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "CollectionPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:36.060 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 5/8: "GenresPostScanTask"
+[2026-09-11 09:06:36.235 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.GenresValidator: Error refreshing "Fantasy"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Genre/Fantasy' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetGenre(String name)
+   at Emby.Server.Implementations.Library.Validators.GenresValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.278 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.GenresValidator: Error refreshing "Mystery"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Genre/Mystery' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetGenre(String name)
+   at Emby.Server.Implementations.Library.Validators.GenresValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.279 +01:00] [INF] [80] Emby.Server.Implementations.Library.Validators.GenresValidator: Refreshed metadata for 0 new genres out of 10 total
+[2026-09-11 09:06:36.432 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "GenresPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:36.432 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 6/8: "MusicGenresPostScanTask"
+[2026-09-11 09:06:36.473 +01:00] [INF] [80] Emby.Server.Implementations.Library.Validators.MusicGenresValidator: Refreshed metadata for 0 new music genres out of 11 total
+[2026-09-11 09:06:36.473 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "MusicGenresPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:36.473 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 7/8: "StudiosPostScanTask"
+[2026-09-11 09:06:36.502 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "20th Century Fox"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/20th Century Fox' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.506 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Berg Mandel Schaffer Productions"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Berg Mandel Schaffer Productions' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.508 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "CBS"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/CBS' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.510 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Channel 4 Television"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Channel 4 Television' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.512 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Dune Entertainment"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Dune Entertainment' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.514 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Eros International"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Eros International' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.516 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Everyman Pictures"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Everyman Pictures' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.518 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Four by Two"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Four by Two' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.520 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Four by Two Films"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Four by Two Films' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.522 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Oak Springs Productions"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Oak Springs Productions' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.524 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "One America"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/One America' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.526 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Scott Rudin Productions"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Scott Rudin Productions' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.528 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Showtime"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Showtime' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.530 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Talkback"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Talkback' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.532 +01:00] [ERR] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Error refreshing "Vedhaaswa Creations"
+System.UnauthorizedAccessException: Access to the path '/config/data/metadata/Studio/Vedhaaswa Creations' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at System.IO.FileSystem.CreateDirectory(String fullPath, UnixFileMode unixCreateMode)
+   at System.IO.Directory.CreateDirectory(String path)
+   at Emby.Server.Implementations.Library.LibraryManager.CreateItemByName[T](Func`2 getPathFn, String name, DtoOptions options)
+   at Emby.Server.Implementations.Library.LibraryManager.GetStudio(String name)
+   at Emby.Server.Implementations.Library.Validators.StudiosValidator.Run(IProgress`1 progress, CancellationToken cancellationToken)
+[2026-09-11 09:06:36.533 +01:00] [INF] [80] Emby.Server.Implementations.Library.Validators.StudiosValidator: Refreshed metadata for 0 new studios out of 47 total
+[2026-09-11 09:06:36.669 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "StudiosPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:36.669 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 8/8: "CleanDatabaseScheduledTask"
+[2026-09-11 09:06:36.931 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "CleanDatabaseScheduledTask" completed after 0 minute(s) and 0 seconds
+[2026-09-11 09:06:36.931 +01:00] [INF] [80] Emby.Server.Implementations.Library.LibraryManager: All post-scan tasks completed after 0 minute(s) and 14 seconds
+[2026-09-11 09:06:37.009 +01:00] [INF] [80] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Audios/Neville Goddard" because the path does not exist
+[2026-09-11 09:06:37.009 +01:00] [INF] [80] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Courses/Inner Circle Trader" because the path does not exist
+[2026-09-11 09:06:37.009 +01:00] [INF] [80] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course" because the path does not exist
+[2026-09-11 09:06:37.009 +01:00] [INF] [80] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Movies/Mom'sMarriage" because the path does not exist
+[2026-09-11 09:06:37.009 +01:00] [INF] [80] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Music/Monroe Institute/More Meditations" because the path does not exist
+[2026-09-11 09:06:37.009 +01:00] [INF] [80] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Music/Monroe Institute/The Gateway Experience" because the path does not exist
+[2026-09-11 09:06:37.010 +01:00] [INF] [25] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/Cartoons"
+[2026-09-11 09:06:37.010 +01:00] [INF] [86] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/TV"
+[2026-09-11 09:06:37.010 +01:00] [INF] [80] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 15 seconds
+[2026-09-11 09:07:22.479 +01:00] [INF] [85] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Vacuuming and analyzing jellyfin.db...
+[2026-09-11 09:07:22.732 +01:00] [INF] [85] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-09-11 09:07:22.733 +01:00] [INF] [85] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2026-09-11 11:59:50.367 +01:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2026-09-11 11:59:52.582 +01:00] [INF] [10] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-09-11 11:59:52.739 +01:00] [INF] [10] Main: Jellyfin version: "12.0.0"
+[2026-09-11 11:59:52.747 +01:00] [INF] [10] Main: Environment Variables: ["[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /config/cache]", "[JELLYFIN_DATA_DIR, /config/data]", "[JELLYFIN_WEB_DIR, /usr/share/jellyfin/web]", "[JELLYFIN_CONFIG_DIR, /config]"]
+[2026-09-11 11:59:52.753 +01:00] [INF] [10] Main: Arguments: ["/usr/lib/jellyfin/bin/jellyfin.dll", "--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg"]
+[2026-09-11 11:59:52.813 +01:00] [INF] [10] Main: Operating system: "Ubuntu 26.04.1 LTS"
+[2026-09-11 11:59:52.813 +01:00] [INF] [10] Main: Architecture: X64
+[2026-09-11 11:59:52.815 +01:00] [INF] [10] Main: 64-Bit Process: True
+[2026-09-11 11:59:52.815 +01:00] [INF] [10] Main: User Interactive: True
+[2026-09-11 11:59:52.815 +01:00] [INF] [10] Main: Processor count: 28
+[2026-09-11 11:59:52.815 +01:00] [INF] [10] Main: Program data path: "/config/data"
+[2026-09-11 11:59:52.815 +01:00] [INF] [10] Main: Log directory path: "/config/log"
+[2026-09-11 11:59:52.816 +01:00] [INF] [10] Main: Config directory path: "/config"
+[2026-09-11 11:59:52.816 +01:00] [INF] [10] Main: Cache path: "/config/cache"
+[2026-09-11 11:59:52.816 +01:00] [INF] [10] Main: Temp directory path: "/tmp/jellyfin"
+[2026-09-11 11:59:52.816 +01:00] [INF] [10] Main: Web resources path: "/usr/share/jellyfin/web"
+[2026-09-11 11:59:52.817 +01:00] [INF] [10] Main: Application directory: "/usr/lib/jellyfin/bin/"
+[2026-09-11 11:59:52.987 +01:00] [INF] [10] Jellyfin.Server.Startup: Storage path `"/config/data/data"` (Fixed) successfully checked with "7GiB" free which is over the minimum of "2GiB".
+[2026-09-11 11:59:52.988 +01:00] [INF] [10] Jellyfin.Server.Startup: Storage path `"/config/cache"` (Fixed) successfully checked with "7GiB" free which is over the minimum of "2GiB".
+[2026-09-11 11:59:52.989 +01:00] [INF] [10] Jellyfin.Server.Startup: Storage path `"/config/data"` (Fixed) successfully checked with "7GiB" free which is over the minimum of "2GiB".
+[2026-09-11 11:59:53.059 +01:00] [INF] [10] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2026-09-11 11:59:53.559 +01:00] [WRN] [9] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 3.8104ms with message '"Server is still starting up."'
+[2026-09-11 11:59:54.136 +01:00] [INF] [10] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-09-11 11:59:54.199 +01:00] [INF] [10] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-09-11 11:59:54.202 +01:00] [INF] [10] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-09-11 11:59:54.639 +01:00] [INF] [10] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-09-11 11:59:54.661 +01:00] [WRN] [15] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 0.1377ms with message '"Server is still starting up."'
+[2026-09-11 11:59:55.691 +01:00] [WRN] [14] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 0.0087ms with message '"Server is still starting up."'
+[2026-09-11 11:59:56.720 +01:00] [WRN] [14] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 0.008ms with message '"Server is still starting up."'
+[2026-09-11 11:59:57.748 +01:00] [WRN] [14] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 0.0086ms with message '"Server is still starting up."'
+[2026-09-11 11:59:58.294 +01:00] [INF] [10] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/config/cache"
+[2026-09-11 11:59:58.775 +01:00] [WRN] [14] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 0.0065ms with message '"Server is still starting up."'
+[2026-09-11 11:59:59.415 +01:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-09-11 11:59:59.607 +01:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-09-11 11:59:59.608 +01:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-09-11 11:59:59.614 +01:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-09-11 11:59:59.618 +01:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.9"]
+[2026-09-11 11:59:59.618 +01:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-09-11 11:59:59.618 +01:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-09-11 11:59:59.619 +01:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-09-11 11:59:59.803 +01:00] [WRN] [9] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 0.0058ms with message '"Server is still starting up."'
+[2026-09-11 12:00:00.576 +01:00] [INF] [10] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-09-11 12:00:00.577 +01:00] [INF] [10] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-09-11 12:00:00.577 +01:00] [INF] [10] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-09-11 12:00:00.775 +01:00] [INF] [10] Main: Prepare system for possible migrations
+[2026-09-11 12:00:00.830 +01:00] [WRN] [9] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 0.0093ms with message '"Server is still starting up."'
+[2026-09-11 12:00:01.469 +01:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "12.0.0.0"
+[2026-09-11 12:00:01.470 +01:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "12.0.0.0"
+[2026-09-11 12:00:01.472 +01:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "12.0.0.0"
+[2026-09-11 12:00:01.519 +01:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "12.0.0.0"
+[2026-09-11 12:00:01.520 +01:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "ListenBrainz Similarity Provider" "12.0.0.0"
+[2026-09-11 12:00:01.521 +01:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "12.0.0.0"
+[2026-09-11 12:00:01.806 +01:00] [INF] [10] Emby.Server.Implementations.Library.Search.SearchManager: Registered 0 external search providers: "". Fallback providers: "Database (priority 100)"
+[2026-09-11 12:00:02.758 +01:00] [INF] [14] Main: Kestrel is listening on "0.0.0.0"
+[2026-09-11 12:00:02.787 +01:00] [ERR] [14] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider: An error occurred while reading the key ring.
+System.UnauthorizedAccessException: Access to the path '/config/.aspnet/DataProtection-Keys/key-0aabe475-cc47-454d-a8b1-b6e57c0be4c4.xml' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.ReadElementFromFile(String fullPath)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElementsCore()+MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository.GetAllElements()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager.GetAllKeys()
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.CreateCacheableKeyRingCore(DateTimeOffset now, IKey keyJustAdded)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider.GetCurrentKeyRingCoreNew(DateTime utcNow, Boolean forceRefresh)
+   at Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService.StartAsync(CancellationToken token)
+[2026-09-11 12:00:05.499 +01:00] [WRN] [14] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/run/s6-rc:s6-rc-init:gbCleD/servicedirs/svc-jellyfin/wwwroot". Static files may be unavailable.
+[2026-09-11 12:00:05.612 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Audios/Neville Goddard" because the path does not exist
+[2026-09-11 12:00:05.613 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Courses/Inner Circle Trader" because the path does not exist
+[2026-09-11 12:00:05.613 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Courses/OpenCV/OpenCV Bootcamp: 19-Video Crash Course" because the path does not exist
+[2026-09-11 12:00:05.618 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Movies/Mom'sMarriage" because the path does not exist
+[2026-09-11 12:00:05.618 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Music/Monroe Institute/More Meditations" because the path does not exist
+[2026-09-11 12:00:05.618 +01:00] [INF] [14] Emby.Server.Implementations.IO.LibraryMonitor: Skipping realtime monitor for "/data/Music/Monroe Institute/The Gateway Experience" because the path does not exist
+[2026-09-11 12:00:05.618 +01:00] [INF] [15] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/Cartoons"
+[2026-09-11 12:00:05.619 +01:00] [INF] [14] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-09-11 12:00:05.621 +01:00] [INF] [10] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/data/TV"
+[2026-09-11 12:00:05.669 +01:00] [INF] [14] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-09-12 03:00:00.000 +01:00, which is 14:59:54.3304602 from now.
+[2026-09-11 12:00:05.692 +01:00] [INF] [14] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-09-12 02:00:00.000 +01:00, which is 13:59:54.3078883 from now.
+[2026-09-11 12:00:07.390 +01:00] [INF] [14] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "8.1.2"
+[2026-09-11 12:00:07.589 +01:00] [INF] [14] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-09-11 12:00:07.636 +01:00] [INF] [14] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-09-11 12:00:07.699 +01:00] [INF] [14] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-09-11 12:00:08.292 +01:00] [INF] [14] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan", "amf"]
+[2026-09-11 12:00:08.738 +01:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2026-09-11 12:00:10.005 +01:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2026-09-11 12:00:14.765 +01:00] [INF] [14] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-09-11 12:00:14.769 +01:00] [INF] [14] Emby.Server.Implementations.ApplicationHost: ServerId: "75283328a13f45e090b4062177c5052e"
+[2026-09-11 12:00:14.769 +01:00] [INF] [14] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-09-11 12:00:14.769 +01:00] [INF] [14] Main: Startup complete 0:00:39.0441767
+[2026-09-11 18:01:05.717 +01:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Vacuuming and analyzing jellyfin.db...
+[2026-09-11 18:01:06.394 +01:00] [INF] [34] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: jellyfin.db optimized successfully!
+[2026-09-11 18:01:06.394 +01:00] [INF] [34] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds

@@ -1,0 +1,74 @@
+2025-12-03 00:30:44.379 UTC [68520] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 00:34:46.806 UTC [68583] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 00:41:58.390 UTC [68715] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 00:41:58.390 UTC [68715] LOG:  unexpected EOF on client connection with an open transaction
+2025-12-03 01:03:56.400 UTC [69091] LOG:  unexpected EOF on client connection with an open transaction
+2025-12-03 01:46:52.935 UTC [69839] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 02:17:19.287 UTC [70366] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 02:36:59.295 UTC [70707] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 02:48:35.185 UTC [70905] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 02:48:35.185 UTC [70905] LOG:  unexpected EOF on client connection with an open transaction
+2025-12-03 02:54:19.258 UTC [71004] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 03:14:38.949 UTC [71355] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 03:31:34.613 UTC [71658] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 03:40:28.000 UTC [71805] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 03:48:03.397 UTC [71942] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 04:03:43.313 UTC [72210] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 04:19:21.440 UTC [72481] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 04:19:34.729 UTC [72485] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 04:39:40.774 UTC [72833] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 05:24:19.218 UTC [73602] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 05:34:28.178 UTC [73777] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 05:46:44.470 UTC [73996] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:00:07.171 UTC [74220] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:10:31.149 UTC [74398] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:13:16.773 UTC [74454] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:21:19.714 UTC [74600] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:23:27.639 UTC [74633] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:24:19.309 UTC [74648] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:24:19.309 UTC [74648] LOG:  unexpected EOF on client connection with an open transaction
+2025-12-03 06:25:35.435 UTC [74668] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:48:10.475 UTC [75061] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 06:56:02.689 UTC [75191] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 08:33:10.981 UTC [76877] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 09:18:58.896 UTC [77670] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 09:47:57.839 UTC [78175] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 10:05:57.714 UTC [78483] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 10:07:40.388 UTC [78521] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 10:46:10.893 UTC [79181] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 11:01:27.552 UTC [79457] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 11:10:59.904 UTC [79613] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 12:58:04.065 UTC [81463] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 13:27:54.565 UTC [81978] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 13:34:03.879 UTC [82084] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 14:06:18.389 UTC [82636] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 14:22:22.248 UTC [82926] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 14:26:37.016 UTC [83002] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 14:32:32.949 UTC [83103] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 15:42:12.735 UTC [84310] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 16:02:10.661 UTC [84656] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 16:37:07.891 UTC [85260] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 16:38:36.945 UTC [85284] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 16:39:54.284 UTC [85305] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 16:49:51.222 UTC [85477] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 17:00:40.875 UTC [85662] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 17:12:43.754 UTC [85877] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 18:05:44.347 UTC [86787] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 18:14:01.490 UTC [86934] LOG:  unexpected EOF on client connection with an open transaction
+2025-12-03 18:32:53.946 UTC [87261] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 18:38:00.360 UTC [87352] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 18:41:26.433 UTC [87404] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 19:40:16.532 UTC [88424] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 19:48:19.900 UTC [88568] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 19:55:45.227 UTC [88693] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 19:55:45.227 UTC [88693] LOG:  unexpected EOF on client connection with an open transaction
+2025-12-03 20:05:03.534 UTC [88855] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 20:16:20.391 UTC [89049] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 21:02:44.727 UTC [89862] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 21:16:04.710 UTC [90088] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 21:34:30.437 UTC [90411] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 22:27:00.943 UTC [91314] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 22:58:18.821 UTC [91863] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 23:23:20.645 UTC [92295] LOG:  could not receive data from client: Connection reset by peer
+2025-12-03 23:23:20.645 UTC [92295] LOG:  unexpected EOF on client connection with an open transaction
+2025-12-03 23:29:54.661 UTC [92407] LOG:  unexpected EOF on client connection with an open transaction

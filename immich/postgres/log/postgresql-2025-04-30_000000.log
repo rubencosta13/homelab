@@ -1,0 +1,5 @@
+2025-04-30 14:40:01.974 UTC [1] LOG:  received fast shutdown request
+2025-04-30 14:40:01.986 UTC [1] LOG:  aborting any active transactions
+2025-04-30 14:40:01.991 UTC [1] LOG:  background worker "logical replication launcher" (PID 55) exited with exit code 1
+2025-04-30 14:40:01.994 UTC [50] LOG:  shutting down
+2025-04-30 14:40:02.151 UTC [1] LOG:  database system is shut down

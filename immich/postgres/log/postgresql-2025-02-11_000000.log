@@ -1,0 +1,11 @@
+2025-02-11 11:38:55.357 UTC [1] LOG:  received fast shutdown request
+2025-02-11 11:38:55.838 UTC [1] LOG:  aborting any active transactions
+2025-02-11 11:38:56.115 UTC [48] FATAL:  terminating connection due to administrator command
+2025-02-11 11:38:56.117 UTC [52] FATAL:  terminating connection due to administrator command
+2025-02-11 11:38:56.105 UTC [49] FATAL:  terminating connection due to administrator command
+2025-02-11 11:38:56.105 UTC [49] STATEMENT:  SELECT pg_advisory_lock($1)
+2025-02-11 11:38:56.183 UTC [1] LOG:  background worker "logical replication launcher" (PID 35) exited with exit code 1
+2025-02-11 11:38:56.185 UTC [49] LOG:  could not send data to client: Broken pipe
+2025-02-11 11:38:56.185 UTC [49] STATEMENT:  SELECT pg_advisory_lock($1)
+2025-02-11 11:38:56.850 UTC [30] LOG:  shutting down
+2025-02-11 11:38:58.771 UTC [1] LOG:  database system is shut down

@@ -1,0 +1,8 @@
+2026-01-16 02:00:27.381 UTC [36529] LOG:  could not receive data from client: Connection reset by peer
+2026-01-16 03:46:48.494 UTC [38356] LOG:  could not receive data from client: Connection reset by peer
+2026-01-16 03:46:48.494 UTC [38356] LOG:  unexpected EOF on client connection with an open transaction
+2026-01-16 08:40:13.828 UTC [1] LOG:  received fast shutdown request
+2026-01-16 08:40:14.851 UTC [1] LOG:  aborting any active transactions
+2026-01-16 08:40:15.150 UTC [1] LOG:  background worker "logical replication launcher" (PID 47) exited with exit code 1
+2026-01-16 08:40:15.523 UTC [42] LOG:  shutting down
+2026-01-16 08:40:21.490 UTC [1] LOG:  database system is shut down

@@ -1,0 +1,28 @@
+2026-05-05 17:06:31.221 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2026-05-05 17:06:31.228 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-05-05 17:06:31.228 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-05-05 17:06:31.560 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-05-05 17:06:32.123 UTC [28] LOG:  database system was shut down at 2026-05-04 21:07:05 UTC
+[2026-05-05T17:06:32Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2026-05-05T17:06:32Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2026-05-05T17:06:32Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+[2026-05-05T17:06:32Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/71c2a884-29b7-4e33-a945-28dfac840a67".
+2026-05-05 17:06:34.815 UTC [1] LOG:  database system is ready to accept connections
+2026-05-05 17:08:13.239 UTC [79] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 17:12:12.110 UTC [175] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 17:24:46.319 UTC [465] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 17:41:31.171 UTC [852] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 17:45:43.168 UTC [953] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 17:52:22.651 UTC [1116] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 18:09:08.822 UTC [1505] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 18:47:50.905 UTC [2413] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 18:51:47.932 UTC [2498] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 19:18:38.080 UTC [3131] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 19:56:40.078 UTC [4015] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 19:59:08.949 UTC [4079] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 20:00:37.637 UTC [4111] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 20:07:18.746 UTC [4275] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 20:10:32.584 UTC [4345] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 20:12:46.338 UTC [4404] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 20:13:16.619 UTC [4417] LOG:  could not receive data from client: Connection reset by peer
+2026-05-05 20:15:16.135 UTC [4460] LOG:  could not receive data from client: Connection reset by peer

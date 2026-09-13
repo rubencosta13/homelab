@@ -1,0 +1,1171 @@
+2026-03-13 10:17:03,077 - Config               - WARNING - /app/config/config_files/config.yaml not found. Creating a new one with default values.
+2026-03-13 10:17:03,296 - DatabaseManager      - INFO  - Creating table 'auth_users'...
+2026-03-13 10:17:03,309 - DatabaseManager      - INFO  - Creating table 'refresh_tokens'...
+2026-03-13 10:17:03,321 - DatabaseManager      - INFO  - Creating table 'user_media_profiles'...
+2026-03-13 10:17:03,333 - DatabaseManager      - INFO  - Creating table 'users'...
+2026-03-13 10:17:03,346 - DatabaseManager      - INFO  - Creating table 'requests'...
+2026-03-13 10:17:03,358 - DatabaseManager      - INFO  - Creating table 'metadata'...
+2026-03-13 10:17:03,368 - DatabaseManager      - INFO  - Creating table 'discover_jobs'...
+2026-03-13 10:17:03,380 - DatabaseManager      - INFO  - Creating table 'job_execution_history'...
+2026-03-13 10:17:03,392 - DatabaseManager      - INFO  - Creating table 'pending_requests'...
+2026-03-13 10:17:03,404 - DatabaseManager      - INFO  - Creating table 'integrations'...
+2026-03-13 10:17:06,876 - APP                  - INFO  - CORS using default frontend origins: ['http://localhost:8080', 'http://127.0.0.1:8080']
+2026-03-13 10:17:07,047 - ConfigImport         - INFO  - Importing YAML config settings to database (one-time migration)
+2026-03-13 10:17:07,059 - JobRepository        - INFO  - Created discover job with ID: 1
+2026-03-13 10:17:07,060 - ConfigImport         - INFO  - Config imported successfully as job ID: 1
+2026-03-13 10:17:07,060 - ConfigImport         - INFO  - YAML config will no longer be synced. Manage jobs through the UI.
+2026-03-13 10:17:07,061 - APP                  - INFO  - System job synced from config (ID: 1)
+2026-03-13 10:17:07,083 - JobManager           - INFO  - JobManager initialized
+2026-03-13 10:17:07,085 - JobManager           - INFO  - Job scheduler started
+2026-03-13 10:17:07,085 - JobManager           - INFO  - Synchronizing jobs from database
+2026-03-13 10:17:07,088 - JobManager           - INFO  - Scheduled job: Default Automation with schedule: 0 0 * * *
+2026-03-13 10:17:07,089 - JobManager           - INFO  - Synchronized 1 jobs
+2026-03-13 10:17:07,091 - APP                  - INFO  - Jobs scheduler initialized (discover + recommendation + queue_worker)
+2026-03-13 10:17:50,472 - DatabaseManager      - INFO  - Created auth user: rcosta13 (role=admin)
+2026-03-13 10:17:50,473 - AuthRoute            - INFO  - Initial admin account created: 'rcosta13'
+2026-03-13 10:17:51,359 - SecretKey            - INFO  - Generated new secret key at /app/config/config_files/secret.key
+2026-03-13 10:17:51,380 - AuthRoute            - INFO  - Successful login: 'rcosta13' from 10.13.13.47
+2026-03-13 10:18:31,156 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:18:31,158 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:18:31,233 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:18:46,065 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:18:46,066 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:18:46,079 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:22:00,694 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:22:00,695 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:22:00,702 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:23:25,356 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:23:25,357 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:23:25,366 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:23:26,611 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:23:26,613 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:23:26,621 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:23:27,820 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:23:27,821 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:23:27,829 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:23:31,838 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:23:31,840 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:23:31,848 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:23:41,306 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:23:41,308 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:23:41,315 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:32:21,172 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:32:21,173 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:32:21,182 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:32:22,255 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:32:22,256 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:32:22,276 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:32:23,522 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:32:23,523 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:32:23,533 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:32:28,666 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:32:28,668 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:32:28,677 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:32:45,070 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:32:45,072 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:32:45,079 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:33:14,772 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:33:14,773 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:33:14,782 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:33:25,877 - DatabaseManager      - INFO  - Creating table 'auth_users'...
+2026-03-13 10:33:25,879 - DatabaseManager      - INFO  - Creating table 'refresh_tokens'...
+2026-03-13 10:33:25,881 - DatabaseManager      - INFO  - Creating table 'user_media_profiles'...
+2026-03-13 10:33:25,882 - DatabaseManager      - INFO  - Creating table 'users'...
+2026-03-13 10:33:25,884 - DatabaseManager      - INFO  - Creating table 'requests'...
+2026-03-13 10:33:25,886 - DatabaseManager      - INFO  - Creating table 'metadata'...
+2026-03-13 10:33:25,887 - DatabaseManager      - INFO  - Creating table 'discover_jobs'...
+2026-03-13 10:33:25,889 - DatabaseManager      - INFO  - Creating table 'job_execution_history'...
+2026-03-13 10:33:25,891 - DatabaseManager      - INFO  - Creating table 'pending_requests'...
+2026-03-13 10:33:25,892 - DatabaseManager      - INFO  - Creating table 'integrations'...
+2026-03-13 10:33:25,969 - JobRepository        - INFO  - Created discover job with ID: 2
+2026-03-13 10:33:25,973 - JobManager           - INFO  - Scheduled job: Automatic Recommendations with schedule: daily
+2026-03-13 10:33:25,973 - JobsRoute            - INFO  - Created recommendation job: Automatic Recommendations (ID: 2)
+2026-03-13 10:34:16,095 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:34:16,097 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:34:16,104 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:34:44,999 - JobsRoute            - INFO  - Force run all: executing 2 job(s)
+2026-03-13 10:34:45,000 - JobsRoute            - INFO  - Force run all: starting recommendation job 2 (Automatic Recommendations)
+2026-03-13 10:34:45,002 - RecommendationJobExecutor - INFO  - Starting execution of recommendation job: 2
+2026-03-13 10:34:45,004 - RecommendationAutomation - INFO  - Initializing RecommendationAutomation for job: Automatic Recommendations
+2026-03-13 10:34:45,005 - RecommendationAutomation - INFO  - Initializing Seer service client
+2026-03-13 10:34:45,208 - SeerClient           - INFO  - Fetched all requests and saved to database.
+2026-03-13 10:34:45,209 - RecommendationAutomation - INFO  - Initializing TMDb client with job filters
+2026-03-13 10:34:45,210 - RecommendationAutomation - INFO  - Initializing Jellyfin client
+2026-03-13 10:34:45,210 - JellyfinClient       - INFO  - Initializing existing content.
+2026-03-13 10:34:45,226 - JellyfinClient       - INFO  - Retrieved 9 valid items in Movies
+2026-03-13 10:34:45,228 - RecommendationAutomation - INFO  - Jellyfin handler initialized
+2026-03-13 10:34:45,228 - RecommendationAutomation - INFO  - RecommendationAutomation initialized successfully
+2026-03-13 10:34:45,228 - RecommendationAutomation - INFO  - Starting recommendation job: Automatic Recommendations
+2026-03-13 10:34:45,240 - RecommendationAutomation - INFO  - Fetching content for user: rcosta13
+2026-03-13 10:34:45,399 - JellyfinClient       - INFO  - Retrieved 8 watched items in Movies for user rcosta13
+2026-03-13 10:34:47,968 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,020 - SeerClient           - INFO  - Enqueued movie tmdb:1263012 for Seer delivery.
+2026-03-13 10:34:48,020 - RecommendationAutomation - INFO  - Requested movie: Dead Man's Wire
+2026-03-13 10:34:48,046 - SeerClient           - INFO  - Enqueued movie tmdb:1140498 for Seer delivery.
+2026-03-13 10:34:48,047 - RecommendationAutomation - INFO  - Requested movie: Is This Thing On?
+2026-03-13 10:34:48,076 - SeerClient           - INFO  - Enqueued movie tmdb:671318 for Seer delivery.
+2026-03-13 10:34:48,076 - RecommendationAutomation - INFO  - Requested movie: ¿Y Cómo Es Él?
+2026-03-13 10:34:48,112 - SeerClient           - INFO  - Enqueued movie tmdb:1170944 for Seer delivery.
+2026-03-13 10:34:48,113 - RecommendationAutomation - INFO  - Requested movie: Heist 88
+2026-03-13 10:34:48,141 - SeerClient           - INFO  - Enqueued movie tmdb:937220 for Seer delivery.
+2026-03-13 10:34:48,142 - RecommendationAutomation - INFO  - Requested movie: Bank of Dave
+2026-03-13 10:34:48,146 - TMDbClient           - INFO  - Excluding Collision due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,147 - TMDbClient           - INFO  - Excluding Skincare due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,150 - TMDbClient           - INFO  - Excluding Due Justice due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,150 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,151 - TMDbClient           - INFO  - Excluding The Locksmith due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,154 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,157 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,202 - SeerClient           - INFO  - Enqueued movie tmdb:1245993 for Seer delivery.
+2026-03-13 10:34:48,202 - RecommendationAutomation - INFO  - Requested movie: Caught Stealing
+2026-03-13 10:34:48,232 - SeerClient           - INFO  - Enqueued movie tmdb:800158 for Seer delivery.
+2026-03-13 10:34:48,232 - RecommendationAutomation - INFO  - Requested movie: The Killer
+2026-03-13 10:34:48,260 - SeerClient           - INFO  - Enqueued movie tmdb:681434 for Seer delivery.
+2026-03-13 10:34:48,260 - RecommendationAutomation - INFO  - Requested movie: Psycho Therapy: The Shallow Tale of a Writer Who Decided to Write About a Serial Killer
+2026-03-13 10:34:48,286 - SeerClient           - INFO  - Enqueued movie tmdb:1013601 for Seer delivery.
+2026-03-13 10:34:48,287 - RecommendationAutomation - INFO  - Requested movie: The Alto Knights
+2026-03-13 10:34:48,316 - SeerClient           - INFO  - Enqueued movie tmdb:1319895 for Seer delivery.
+2026-03-13 10:34:48,316 - RecommendationAutomation - INFO  - Requested movie: Hostile Takeover
+2026-03-13 10:34:48,358 - SeerClient           - INFO  - Enqueued movie tmdb:668489 for Seer delivery.
+2026-03-13 10:34:48,359 - RecommendationAutomation - INFO  - Requested movie: Havoc
+2026-03-13 10:34:48,387 - SeerClient           - INFO  - Enqueued movie tmdb:1149167 for Seer delivery.
+2026-03-13 10:34:48,388 - RecommendationAutomation - INFO  - Requested movie: High Rollers
+2026-03-13 10:34:48,416 - SeerClient           - INFO  - Enqueued movie tmdb:738652 for Seer delivery.
+2026-03-13 10:34:48,417 - RecommendationAutomation - INFO  - Requested movie: Copshop
+2026-03-13 10:34:48,451 - SeerClient           - INFO  - Enqueued movie tmdb:970347 for Seer delivery.
+2026-03-13 10:34:48,451 - RecommendationAutomation - INFO  - Requested movie: The Killer
+2026-03-13 10:34:48,479 - SeerClient           - INFO  - Enqueued movie tmdb:1439112 for Seer delivery.
+2026-03-13 10:34:48,479 - RecommendationAutomation - INFO  - Requested movie: Muzzle: City of Wolves
+2026-03-13 10:34:48,519 - SeerClient           - INFO  - Enqueued movie tmdb:628847 for Seer delivery.
+2026-03-13 10:34:48,520 - RecommendationAutomation - INFO  - Requested movie: Trap House
+2026-03-13 10:34:48,546 - SeerClient           - INFO  - Enqueued movie tmdb:280180 for Seer delivery.
+2026-03-13 10:34:48,546 - RecommendationAutomation - INFO  - Requested movie: Beverly Hills Cop: Axel F
+2026-03-13 10:34:48,572 - SeerClient           - INFO  - Enqueued movie tmdb:1106289 for Seer delivery.
+2026-03-13 10:34:48,573 - RecommendationAutomation - INFO  - Requested movie: The Pickup
+2026-03-13 10:34:48,612 - SeerClient           - INFO  - Enqueued movie tmdb:1082195 for Seer delivery.
+2026-03-13 10:34:48,613 - RecommendationAutomation - INFO  - Requested movie: The Order
+2026-03-13 10:34:48,646 - SeerClient           - INFO  - Enqueued movie tmdb:866398 for Seer delivery.
+2026-03-13 10:34:48,647 - RecommendationAutomation - INFO  - Requested movie: The Beekeeper
+2026-03-13 10:34:48,675 - SeerClient           - INFO  - Enqueued movie tmdb:1511556 for Seer delivery.
+2026-03-13 10:34:48,675 - RecommendationAutomation - INFO  - Requested movie: Under Fire
+2026-03-13 10:34:48,707 - SeerClient           - INFO  - Enqueued movie tmdb:604685 for Seer delivery.
+2026-03-13 10:34:48,707 - RecommendationAutomation - INFO  - Requested movie: Den of Thieves 2: Pantera
+2026-03-13 10:34:48,710 - TMDbClient           - INFO  - Excluding Babes due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:48,747 - SeerClient           - INFO  - Enqueued movie tmdb:1014590 for Seer delivery.
+2026-03-13 10:34:48,748 - RecommendationAutomation - INFO  - Requested movie: Upgraded
+2026-03-13 10:34:48,774 - SeerClient           - INFO  - Enqueued movie tmdb:1267905 for Seer delivery.
+2026-03-13 10:34:48,774 - RecommendationAutomation - INFO  - Requested movie: The Roses
+2026-03-13 10:34:48,802 - SeerClient           - INFO  - Enqueued movie tmdb:852247 for Seer delivery.
+2026-03-13 10:34:48,802 - RecommendationAutomation - INFO  - Requested movie: Problemista
+2026-03-13 10:34:48,803 - RecommendationAutomation - INFO  - Total media requested: 25
+2026-03-13 10:34:48,807 - RecommendationAutomation - INFO  - Job completed: 25 requested
+2026-03-13 10:34:48,821 - JobsRoute            - INFO  - Force run all: job 2 completed
+2026-03-13 10:34:48,821 - JobsRoute            - INFO  - Force run all: starting recommendation job 1 (Default Automation)
+2026-03-13 10:34:48,822 - RecommendationJobExecutor - INFO  - Starting execution of recommendation job: 1
+2026-03-13 10:34:48,825 - RecommendationAutomation - INFO  - Initializing RecommendationAutomation for job: Default Automation
+2026-03-13 10:34:48,826 - RecommendationAutomation - INFO  - Initializing Seer service client
+2026-03-13 10:34:48,862 - SeerClient           - INFO  - Fetched all requests and saved to database.
+2026-03-13 10:34:48,862 - RecommendationAutomation - INFO  - Initializing TMDb client with job filters
+2026-03-13 10:34:48,863 - RecommendationAutomation - INFO  - Initializing Jellyfin client
+2026-03-13 10:34:48,864 - JellyfinClient       - INFO  - Initializing existing content.
+2026-03-13 10:34:48,870 - JellyfinClient       - INFO  - Retrieved 9 valid items in Movies
+2026-03-13 10:34:48,872 - RecommendationAutomation - INFO  - Jellyfin handler initialized
+2026-03-13 10:34:48,872 - RecommendationAutomation - INFO  - RecommendationAutomation initialized successfully
+2026-03-13 10:34:48,872 - RecommendationAutomation - INFO  - Starting recommendation job: Default Automation
+2026-03-13 10:34:48,886 - RecommendationAutomation - INFO  - Fetching content for user: rcosta13
+2026-03-13 10:34:48,900 - JellyfinClient       - INFO  - Retrieved 8 watched items in Movies for user rcosta13
+2026-03-13 10:34:51,590 - TMDbClient           - INFO  - Excluding Babes due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:51,832 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:51,917 - TMDbClient           - INFO  - Excluding Due Justice due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:51,918 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:51,919 - TMDbClient           - INFO  - Excluding The Locksmith due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:51,987 - TMDbClient           - INFO  - Excluding Collision due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:51,988 - TMDbClient           - INFO  - Excluding Skincare due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:52,109 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:52,420 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:34:52,490 - RecommendationAutomation - INFO  - Total media requested: 0
+2026-03-13 10:34:52,494 - RecommendationAutomation - INFO  - Job completed: 0 requested
+2026-03-13 10:34:52,508 - JobsRoute            - INFO  - Force run all: job 1 completed
+2026-03-13 10:34:52,508 - JobsRoute            - INFO  - Force run all: finished
+2026-03-13 10:34:55,332 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:34:55,333 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:34:55,342 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:35:07,095 - QueueWorker          - INFO  - Queue worker: processing 25 item(s).
+2026-03-13 10:35:07,130 - SeerClient           - INFO  - Fetched all requests and saved to database.
+2026-03-13 10:35:07,143 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1263012 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,210 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,211 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1263012 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,222 - QueueWorker          - WARNING - Queue worker: movie tmdb:1263012 retry 1 scheduled at 2026-03-13 10:36:07.211656.
+2026-03-13 10:35:07,233 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1140498 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,242 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,243 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1140498 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,253 - QueueWorker          - WARNING - Queue worker: movie tmdb:1140498 retry 1 scheduled at 2026-03-13 10:36:07.243737.
+2026-03-13 10:35:07,265 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:671318 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,274 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,274 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:671318 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,285 - QueueWorker          - WARNING - Queue worker: movie tmdb:671318 retry 1 scheduled at 2026-03-13 10:36:07.275067.
+2026-03-13 10:35:07,297 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1170944 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,306 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,306 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1170944 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,316 - QueueWorker          - WARNING - Queue worker: movie tmdb:1170944 retry 1 scheduled at 2026-03-13 10:36:07.306919.
+2026-03-13 10:35:07,328 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:937220 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,336 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,337 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:937220 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,347 - QueueWorker          - WARNING - Queue worker: movie tmdb:937220 retry 1 scheduled at 2026-03-13 10:36:07.337775.
+2026-03-13 10:35:07,359 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1245993 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,367 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,368 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1245993 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,379 - QueueWorker          - WARNING - Queue worker: movie tmdb:1245993 retry 1 scheduled at 2026-03-13 10:36:07.368506.
+2026-03-13 10:35:07,392 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:800158 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,400 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,401 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:800158 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,411 - QueueWorker          - WARNING - Queue worker: movie tmdb:800158 retry 1 scheduled at 2026-03-13 10:36:07.401582.
+2026-03-13 10:35:07,425 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:681434 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,433 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,433 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:681434 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,444 - QueueWorker          - WARNING - Queue worker: movie tmdb:681434 retry 1 scheduled at 2026-03-13 10:36:07.433883.
+2026-03-13 10:35:07,456 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1013601 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,464 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,465 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1013601 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,476 - QueueWorker          - WARNING - Queue worker: movie tmdb:1013601 retry 1 scheduled at 2026-03-13 10:36:07.465496.
+2026-03-13 10:35:07,488 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1319895 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,497 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,497 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1319895 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,508 - QueueWorker          - WARNING - Queue worker: movie tmdb:1319895 retry 1 scheduled at 2026-03-13 10:36:07.497748.
+2026-03-13 10:35:07,521 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:668489 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,529 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,529 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:668489 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,541 - QueueWorker          - WARNING - Queue worker: movie tmdb:668489 retry 1 scheduled at 2026-03-13 10:36:07.530083.
+2026-03-13 10:35:07,554 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1149167 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,562 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,563 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1149167 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,575 - QueueWorker          - WARNING - Queue worker: movie tmdb:1149167 retry 1 scheduled at 2026-03-13 10:36:07.563496.
+2026-03-13 10:35:07,588 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:738652 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,598 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,598 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:738652 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,609 - QueueWorker          - WARNING - Queue worker: movie tmdb:738652 retry 1 scheduled at 2026-03-13 10:36:07.599253.
+2026-03-13 10:35:07,622 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:970347 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,630 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,630 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:970347 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,641 - QueueWorker          - WARNING - Queue worker: movie tmdb:970347 retry 1 scheduled at 2026-03-13 10:36:07.631384.
+2026-03-13 10:35:07,653 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1439112 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,662 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,663 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1439112 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,674 - QueueWorker          - WARNING - Queue worker: movie tmdb:1439112 retry 1 scheduled at 2026-03-13 10:36:07.663518.
+2026-03-13 10:35:07,687 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:628847 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,695 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,696 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:628847 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,707 - QueueWorker          - WARNING - Queue worker: movie tmdb:628847 retry 1 scheduled at 2026-03-13 10:36:07.696401.
+2026-03-13 10:35:07,720 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:280180 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,728 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,729 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:280180 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,741 - QueueWorker          - WARNING - Queue worker: movie tmdb:280180 retry 1 scheduled at 2026-03-13 10:36:07.729564.
+2026-03-13 10:35:07,755 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1106289 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,763 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,763 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1106289 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,777 - QueueWorker          - WARNING - Queue worker: movie tmdb:1106289 retry 1 scheduled at 2026-03-13 10:36:07.764330.
+2026-03-13 10:35:07,793 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1082195 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,802 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,802 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1082195 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,817 - QueueWorker          - WARNING - Queue worker: movie tmdb:1082195 retry 1 scheduled at 2026-03-13 10:36:07.802893.
+2026-03-13 10:35:07,829 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:866398 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,838 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,838 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:866398 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,851 - QueueWorker          - WARNING - Queue worker: movie tmdb:866398 retry 1 scheduled at 2026-03-13 10:36:07.839006.
+2026-03-13 10:35:07,863 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1511556 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,871 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,872 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1511556 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,883 - QueueWorker          - WARNING - Queue worker: movie tmdb:1511556 retry 1 scheduled at 2026-03-13 10:36:07.872432.
+2026-03-13 10:35:07,895 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:604685 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,903 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,903 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:604685 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,914 - QueueWorker          - WARNING - Queue worker: movie tmdb:604685 retry 1 scheduled at 2026-03-13 10:36:07.904338.
+2026-03-13 10:35:07,929 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1014590 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,937 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,937 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1014590 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,948 - QueueWorker          - WARNING - Queue worker: movie tmdb:1014590 retry 1 scheduled at 2026-03-13 10:36:07.938071.
+2026-03-13 10:35:07,961 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1267905 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:07,970 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:07,970 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1267905 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:07,981 - QueueWorker          - WARNING - Queue worker: movie tmdb:1267905 retry 1 scheduled at 2026-03-13 10:36:07.971050.
+2026-03-13 10:35:07,994 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:852247 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:35:08,003 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:35:08,003 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:852247 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:35:08,014 - QueueWorker          - WARNING - Queue worker: movie tmdb:852247 retry 1 scheduled at 2026-03-13 10:36:08.003983.
+2026-03-13 10:35:21,428 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:35:21,429 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:35:21,438 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:35:32,409 - JobsRoute            - INFO  - Dry-run for recommendation job 1 (Default Automation)
+2026-03-13 10:35:32,412 - RecommendationAutomation - INFO  - Initializing RecommendationAutomation for job: Default Automation
+2026-03-13 10:35:32,413 - RecommendationAutomation - INFO  - Initializing Seer service client
+2026-03-13 10:35:32,414 - RecommendationAutomation - INFO  - Dry-run mode: skipping Seer request cache sync.
+2026-03-13 10:35:32,414 - RecommendationAutomation - INFO  - Initializing TMDb client with job filters
+2026-03-13 10:35:32,415 - RecommendationAutomation - INFO  - Initializing Jellyfin client
+2026-03-13 10:35:32,416 - JellyfinClient       - INFO  - Initializing existing content.
+2026-03-13 10:35:32,424 - JellyfinClient       - INFO  - Retrieved 9 valid items in Movies
+2026-03-13 10:35:32,425 - RecommendationAutomation - INFO  - Jellyfin handler initialized
+2026-03-13 10:35:32,426 - RecommendationAutomation - INFO  - RecommendationAutomation initialized successfully
+2026-03-13 10:35:32,426 - RecommendationAutomation - INFO  - [DRY RUN] Starting recommendation job: Default Automation
+2026-03-13 10:35:32,427 - RecommendationAutomation - INFO  - Fetching content for user: rcosta13
+2026-03-13 10:35:32,442 - JellyfinClient       - INFO  - Retrieved 8 watched items in Movies for user rcosta13
+2026-03-13 10:35:38,530 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,532 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Dead Man's Wire
+2026-03-13 10:35:38,534 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Order
+2026-03-13 10:35:38,536 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Beekeeper
+2026-03-13 10:35:38,538 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Under Fire
+2026-03-13 10:35:38,539 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Den of Thieves 2: Pantera
+2026-03-13 10:35:38,541 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Kajillionaire
+2026-03-13 10:35:38,543 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Roofman
+2026-03-13 10:35:38,545 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Diablo
+2026-03-13 10:35:38,546 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: A Working Man
+2026-03-13 10:35:38,548 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Instigators
+2026-03-13 10:35:38,550 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Honest Thief
+2026-03-13 10:35:38,552 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Heist 88
+2026-03-13 10:35:38,553 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wolfs
+2026-03-13 10:35:38,555 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bank of Dave
+2026-03-13 10:35:38,557 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Ballad of a Small Player
+2026-03-13 10:35:38,559 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Reptile
+2026-03-13 10:35:38,560 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: High Rollers
+2026-03-13 10:35:38,562 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Pickup
+2026-03-13 10:35:38,564 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Play Dirty
+2026-03-13 10:35:38,565 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Havoc
+2026-03-13 10:35:38,567 - TMDbClient           - INFO  - Excluding Babes due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,569 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Is This Thing On?
+2026-03-13 10:35:38,571 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Upgraded
+2026-03-13 10:35:38,573 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: ¿Y Cómo Es Él?
+2026-03-13 10:35:38,575 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Roses
+2026-03-13 10:35:38,576 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Problemista
+2026-03-13 10:35:38,578 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Map That Leads to You
+2026-03-13 10:35:38,580 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Past Lives
+2026-03-13 10:35:38,582 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Love Again
+2026-03-13 10:35:38,584 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: ¿Quieres ser mi hijo?
+2026-03-13 10:35:38,585 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Babes
+2026-03-13 10:35:38,587 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: All of You
+2026-03-13 10:35:38,589 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Brutalist
+2026-03-13 10:35:38,590 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: What's Love Got to Do with It?
+2026-03-13 10:35:38,592 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Rogue Agent
+2026-03-13 10:35:38,594 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: tick, tick... BOOM!
+2026-03-13 10:35:38,596 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Players
+2026-03-13 10:35:38,597 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Not Okay
+2026-03-13 10:35:38,599 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: A Big Bold Beautiful Journey
+2026-03-13 10:35:38,601 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wicked Little Letters
+2026-03-13 10:35:38,603 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Daddio
+2026-03-13 10:35:38,632 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,634 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Dumb Money
+2026-03-13 10:35:38,636 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: My Fault: London
+2026-03-13 10:35:38,638 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Leave the World Behind
+2026-03-13 10:35:38,640 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Red, White & Royal Blue
+2026-03-13 10:35:38,641 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bridget Jones: Mad About the Boy
+2026-03-13 10:35:38,643 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Luckiest Man in America
+2026-03-13 10:35:38,645 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Clerks III
+2026-03-13 10:35:38,646 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Fall Guy
+2026-03-13 10:35:38,648 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Playdate
+2026-03-13 10:35:38,650 - TMDbClient           - INFO  - Excluding Collision due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,651 - TMDbClient           - INFO  - Excluding Skincare due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,653 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Caught Stealing
+2026-03-13 10:35:38,654 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Killer
+2026-03-13 10:35:38,656 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Psycho Therapy: The Shallow Tale of a Writer Who Decided to Write About a Serial Killer
+2026-03-13 10:35:38,658 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Alto Knights
+2026-03-13 10:35:38,659 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hostile Takeover
+2026-03-13 10:35:38,661 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: All the Devils Are Here
+2026-03-13 10:35:38,664 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Collision
+2026-03-13 10:35:38,666 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Housemaid
+2026-03-13 10:35:38,669 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Sharper
+2026-03-13 10:35:38,670 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Eenie Meanie
+2026-03-13 10:35:38,672 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Apprentice
+2026-03-13 10:35:38,674 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Skincare
+2026-03-13 10:35:38,676 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Killer
+2026-03-13 10:35:38,677 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Border Hunters
+2026-03-13 10:35:38,679 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Strange Darling
+2026-03-13 10:35:38,681 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: John Wick: Chapter 4
+2026-03-13 10:35:38,682 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Heatwave
+2026-03-13 10:35:38,684 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Last Stop in Yuma County
+2026-03-13 10:35:38,691 - TMDbClient           - INFO  - Excluding Due Justice due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,692 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,692 - TMDbClient           - INFO  - Excluding The Locksmith due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,694 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Due Justice
+2026-03-13 10:35:38,696 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Copshop
+2026-03-13 10:35:38,697 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Muzzle: City of Wolves
+2026-03-13 10:35:38,699 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Guns Up
+2026-03-13 10:35:38,701 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Absolution
+2026-03-13 10:35:38,703 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Black Book
+2026-03-13 10:35:38,704 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Trap House
+2026-03-13 10:35:38,706 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Weekend in Taipei
+2026-03-13 10:35:38,708 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bad Boys: Ride or Die
+2026-03-13 10:35:38,709 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wake Up Dead Man: A Knives Out Mystery
+2026-03-13 10:35:38,711 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: The Locksmith
+2026-03-13 10:35:38,713 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Equalizer 3
+2026-03-13 10:35:38,715 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hunting Season
+2026-03-13 10:35:38,823 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:38,825 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Beverly Hills Cop: Axel F
+2026-03-13 10:35:38,827 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: London Calling
+2026-03-13 10:35:38,829 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Accident Man: Hitman's Holiday
+2026-03-13 10:35:38,831 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Fast Charlie
+2026-03-13 10:35:38,832 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Icefall
+2026-03-13 10:35:38,834 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Desert Dawn
+2026-03-13 10:35:38,836 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hellhound
+2026-03-13 10:35:38,838 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Family Plan 2
+2026-03-13 10:35:38,838 - RecommendationAutomation - INFO  - Total media requested: 81
+2026-03-13 10:35:38,842 - RecommendationAutomation - INFO  - [DRY RUN] Job completed: 81 would be requested
+2026-03-13 10:35:38,857 - JobsRoute            - INFO  - Dry-run for recommendation job 2 (Automatic Recommendations)
+2026-03-13 10:35:38,862 - RecommendationAutomation - INFO  - Initializing RecommendationAutomation for job: Automatic Recommendations
+2026-03-13 10:35:38,863 - RecommendationAutomation - INFO  - Initializing Seer service client
+2026-03-13 10:35:38,864 - RecommendationAutomation - INFO  - Dry-run mode: skipping Seer request cache sync.
+2026-03-13 10:35:38,864 - RecommendationAutomation - INFO  - Initializing TMDb client with job filters
+2026-03-13 10:35:38,865 - RecommendationAutomation - INFO  - Initializing Jellyfin client
+2026-03-13 10:35:38,866 - JellyfinClient       - INFO  - Initializing existing content.
+2026-03-13 10:35:38,873 - JellyfinClient       - INFO  - Retrieved 9 valid items in Movies
+2026-03-13 10:35:38,874 - RecommendationAutomation - INFO  - Jellyfin handler initialized
+2026-03-13 10:35:38,874 - RecommendationAutomation - INFO  - RecommendationAutomation initialized successfully
+2026-03-13 10:35:38,875 - RecommendationAutomation - INFO  - [DRY RUN] Starting recommendation job: Automatic Recommendations
+2026-03-13 10:35:38,875 - RecommendationAutomation - INFO  - Fetching content for user: rcosta13
+2026-03-13 10:35:38,888 - JellyfinClient       - INFO  - Retrieved 8 watched items in Movies for user rcosta13
+2026-03-13 10:35:40,678 - TMDbClient           - INFO  - Excluding Collision due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,679 - TMDbClient           - INFO  - Excluding Skincare due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,681 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Caught Stealing
+2026-03-13 10:35:40,682 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Killer
+2026-03-13 10:35:40,684 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Psycho Therapy: The Shallow Tale of a Writer Who Decided to Write About a Serial Killer
+2026-03-13 10:35:40,686 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Alto Knights
+2026-03-13 10:35:40,688 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hostile Takeover
+2026-03-13 10:35:40,689 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: All the Devils Are Here
+2026-03-13 10:35:40,691 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Diablo
+2026-03-13 10:35:40,693 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Collision
+2026-03-13 10:35:40,695 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Housemaid
+2026-03-13 10:35:40,696 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Sharper
+2026-03-13 10:35:40,698 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Eenie Meanie
+2026-03-13 10:35:40,700 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Apprentice
+2026-03-13 10:35:40,702 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Skincare
+2026-03-13 10:35:40,703 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Dead Man's Wire
+2026-03-13 10:35:40,705 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Killer
+2026-03-13 10:35:40,707 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Border Hunters
+2026-03-13 10:35:40,709 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Strange Darling
+2026-03-13 10:35:40,711 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: John Wick: Chapter 4
+2026-03-13 10:35:40,712 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Heatwave
+2026-03-13 10:35:40,714 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Last Stop in Yuma County
+2026-03-13 10:35:40,718 - TMDbClient           - INFO  - Excluding Babes due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,720 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Is This Thing On?
+2026-03-13 10:35:40,721 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Upgraded
+2026-03-13 10:35:40,723 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: ¿Y Cómo Es Él?
+2026-03-13 10:35:40,725 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Roses
+2026-03-13 10:35:40,727 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Problemista
+2026-03-13 10:35:40,729 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Map That Leads to You
+2026-03-13 10:35:40,731 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Past Lives
+2026-03-13 10:35:40,733 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Love Again
+2026-03-13 10:35:40,734 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: ¿Quieres ser mi hijo?
+2026-03-13 10:35:40,736 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Babes
+2026-03-13 10:35:40,738 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: All of You
+2026-03-13 10:35:40,740 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Brutalist
+2026-03-13 10:35:40,742 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: What's Love Got to Do with It?
+2026-03-13 10:35:40,744 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Rogue Agent
+2026-03-13 10:35:40,746 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: tick, tick... BOOM!
+2026-03-13 10:35:40,747 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Players
+2026-03-13 10:35:40,749 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Not Okay
+2026-03-13 10:35:40,751 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: A Big Bold Beautiful Journey
+2026-03-13 10:35:40,753 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wicked Little Letters
+2026-03-13 10:35:40,754 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Daddio
+2026-03-13 10:35:40,756 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,758 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Order
+2026-03-13 10:35:40,760 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Beekeeper
+2026-03-13 10:35:40,762 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Under Fire
+2026-03-13 10:35:40,763 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Den of Thieves 2: Pantera
+2026-03-13 10:35:40,765 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Kajillionaire
+2026-03-13 10:35:40,767 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Roofman
+2026-03-13 10:35:40,769 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: A Working Man
+2026-03-13 10:35:40,770 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Instigators
+2026-03-13 10:35:40,772 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Honest Thief
+2026-03-13 10:35:40,774 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Heist 88
+2026-03-13 10:35:40,776 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wolfs
+2026-03-13 10:35:40,778 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bank of Dave
+2026-03-13 10:35:40,780 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Ballad of a Small Player
+2026-03-13 10:35:40,781 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Reptile
+2026-03-13 10:35:40,783 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: High Rollers
+2026-03-13 10:35:40,785 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Pickup
+2026-03-13 10:35:40,787 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Play Dirty
+2026-03-13 10:35:40,788 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Havoc
+2026-03-13 10:35:40,790 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,792 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Muzzle: City of Wolves
+2026-03-13 10:35:40,793 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Trap House
+2026-03-13 10:35:40,795 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Beverly Hills Cop: Axel F
+2026-03-13 10:35:40,797 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: London Calling
+2026-03-13 10:35:40,799 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Accident Man: Hitman's Holiday
+2026-03-13 10:35:40,801 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Absolution
+2026-03-13 10:35:40,803 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bad Boys: Ride or Die
+2026-03-13 10:35:40,804 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Fast Charlie
+2026-03-13 10:35:40,806 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Guns Up
+2026-03-13 10:35:40,808 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Icefall
+2026-03-13 10:35:40,810 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Desert Dawn
+2026-03-13 10:35:40,811 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Black Book
+2026-03-13 10:35:40,813 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hellhound
+2026-03-13 10:35:40,815 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Family Plan 2
+2026-03-13 10:35:40,816 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,818 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Dumb Money
+2026-03-13 10:35:40,820 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: My Fault: London
+2026-03-13 10:35:40,822 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Leave the World Behind
+2026-03-13 10:35:40,823 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Red, White & Royal Blue
+2026-03-13 10:35:40,825 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bridget Jones: Mad About the Boy
+2026-03-13 10:35:40,827 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Luckiest Man in America
+2026-03-13 10:35:40,829 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Clerks III
+2026-03-13 10:35:40,831 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Fall Guy
+2026-03-13 10:35:40,832 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Playdate
+2026-03-13 10:35:40,833 - TMDbClient           - INFO  - Excluding Due Justice due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,834 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,834 - TMDbClient           - INFO  - Excluding The Locksmith due to TMDB rating below threshold of 60%.
+2026-03-13 10:35:40,836 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Due Justice
+2026-03-13 10:35:40,838 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Copshop
+2026-03-13 10:35:40,840 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Weekend in Taipei
+2026-03-13 10:35:40,841 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wake Up Dead Man: A Knives Out Mystery
+2026-03-13 10:35:40,843 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: The Locksmith
+2026-03-13 10:35:40,845 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Equalizer 3
+2026-03-13 10:35:40,847 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hunting Season
+2026-03-13 10:35:40,847 - RecommendationAutomation - INFO  - Total media requested: 81
+2026-03-13 10:35:40,851 - RecommendationAutomation - INFO  - [DRY RUN] Job completed: 81 would be requested
+2026-03-13 10:36:04,806 - LLMService           - WARNING - OPENAI_API_KEY is not configured. LLM recommendations will be disabled.
+2026-03-13 10:36:23,927 - JobsRoute            - INFO  - Dry-run for recommendation job 2 (Automatic Recommendations)
+2026-03-13 10:36:23,930 - RecommendationAutomation - INFO  - Initializing RecommendationAutomation for job: Automatic Recommendations
+2026-03-13 10:36:23,931 - RecommendationAutomation - INFO  - Initializing Seer service client
+2026-03-13 10:36:23,932 - RecommendationAutomation - INFO  - Dry-run mode: skipping Seer request cache sync.
+2026-03-13 10:36:23,932 - RecommendationAutomation - INFO  - Initializing TMDb client with job filters
+2026-03-13 10:36:23,933 - RecommendationAutomation - INFO  - Initializing Jellyfin client
+2026-03-13 10:36:23,934 - JellyfinClient       - INFO  - Initializing existing content.
+2026-03-13 10:36:23,941 - JellyfinClient       - INFO  - Retrieved 9 valid items in Movies
+2026-03-13 10:36:23,943 - RecommendationAutomation - INFO  - Jellyfin handler initialized
+2026-03-13 10:36:23,943 - RecommendationAutomation - INFO  - RecommendationAutomation initialized successfully
+2026-03-13 10:36:23,943 - RecommendationAutomation - INFO  - [DRY RUN] Starting recommendation job: Automatic Recommendations
+2026-03-13 10:36:23,944 - RecommendationAutomation - INFO  - Fetching content for user: rcosta13
+2026-03-13 10:36:23,965 - JellyfinClient       - INFO  - Retrieved 8 watched items in Movies for user rcosta13
+2026-03-13 10:36:28,671 - TMDbClient           - INFO  - Excluding Due Justice due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:28,672 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:28,672 - TMDbClient           - INFO  - Excluding The Locksmith due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:28,675 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Due Justice
+2026-03-13 10:36:28,677 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Havoc
+2026-03-13 10:36:28,679 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: High Rollers
+2026-03-13 10:36:28,680 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Copshop
+2026-03-13 10:36:28,682 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Killer
+2026-03-13 10:36:28,684 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Muzzle: City of Wolves
+2026-03-13 10:36:28,687 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Guns Up
+2026-03-13 10:36:28,689 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Absolution
+2026-03-13 10:36:28,690 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Black Book
+2026-03-13 10:36:28,692 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Pickup
+2026-03-13 10:36:28,694 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Trap House
+2026-03-13 10:36:28,695 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Den of Thieves 2: Pantera
+2026-03-13 10:36:28,697 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Weekend in Taipei
+2026-03-13 10:36:28,699 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bad Boys: Ride or Die
+2026-03-13 10:36:28,700 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hostile Takeover
+2026-03-13 10:36:28,702 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wake Up Dead Man: A Knives Out Mystery
+2026-03-13 10:36:28,704 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: The Locksmith
+2026-03-13 10:36:28,706 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Equalizer 3
+2026-03-13 10:36:28,708 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Eenie Meanie
+2026-03-13 10:36:28,709 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hunting Season
+2026-03-13 10:36:28,711 - TMDbClient           - INFO  - Excluding Absolution due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:28,715 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Beverly Hills Cop: Axel F
+2026-03-13 10:36:28,716 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: London Calling
+2026-03-13 10:36:28,718 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Accident Man: Hitman's Holiday
+2026-03-13 10:36:28,720 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Fast Charlie
+2026-03-13 10:36:28,722 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Icefall
+2026-03-13 10:36:28,723 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Under Fire
+2026-03-13 10:36:28,725 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Desert Dawn
+2026-03-13 10:36:28,727 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Hellhound
+2026-03-13 10:36:28,728 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Family Plan 2
+2026-03-13 10:36:28,922 - TMDbClient           - INFO  - Excluding Collision due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:28,923 - TMDbClient           - INFO  - Excluding Skincare due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:28,925 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Caught Stealing
+2026-03-13 10:36:28,927 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Killer
+2026-03-13 10:36:28,929 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Psycho Therapy: The Shallow Tale of a Writer Who Decided to Write About a Serial Killer
+2026-03-13 10:36:28,930 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Alto Knights
+2026-03-13 10:36:28,932 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: All the Devils Are Here
+2026-03-13 10:36:28,934 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Diablo
+2026-03-13 10:36:28,936 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Collision
+2026-03-13 10:36:28,937 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Housemaid
+2026-03-13 10:36:28,939 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Sharper
+2026-03-13 10:36:28,941 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Apprentice
+2026-03-13 10:36:28,942 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Skincare
+2026-03-13 10:36:28,944 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Dead Man's Wire
+2026-03-13 10:36:28,946 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Border Hunters
+2026-03-13 10:36:28,948 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Strange Darling
+2026-03-13 10:36:28,950 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: John Wick: Chapter 4
+2026-03-13 10:36:28,953 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Heatwave
+2026-03-13 10:36:28,955 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Last Stop in Yuma County
+2026-03-13 10:36:28,956 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:28,958 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Is This Thing On?
+2026-03-13 10:36:28,960 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: ¿Y Cómo Es Él?
+2026-03-13 10:36:28,962 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Heist 88
+2026-03-13 10:36:28,964 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bank of Dave
+2026-03-13 10:36:28,965 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wicked Little Letters
+2026-03-13 10:36:28,967 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Dumb Money
+2026-03-13 10:36:28,969 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: My Fault: London
+2026-03-13 10:36:28,970 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Order
+2026-03-13 10:36:28,972 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Roofman
+2026-03-13 10:36:28,974 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Instigators
+2026-03-13 10:36:28,975 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Leave the World Behind
+2026-03-13 10:36:28,977 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Ballad of a Small Player
+2026-03-13 10:36:28,979 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Red, White & Royal Blue
+2026-03-13 10:36:28,980 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Bridget Jones: Mad About the Boy
+2026-03-13 10:36:28,982 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Luckiest Man in America
+2026-03-13 10:36:28,984 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Roses
+2026-03-13 10:36:28,986 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Clerks III
+2026-03-13 10:36:28,987 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Fall Guy
+2026-03-13 10:36:28,989 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Playdate
+2026-03-13 10:36:28,991 - TMDbClient           - INFO  - Excluding Babes due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:28,993 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Upgraded
+2026-03-13 10:36:28,995 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Problemista
+2026-03-13 10:36:28,996 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Map That Leads to You
+2026-03-13 10:36:28,998 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Past Lives
+2026-03-13 10:36:29,000 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Love Again
+2026-03-13 10:36:29,002 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: ¿Quieres ser mi hijo?
+2026-03-13 10:36:29,004 - RecommendationAutomation - INFO  - [DRY RUN] Would skip movie: Babes
+2026-03-13 10:36:29,005 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: All of You
+2026-03-13 10:36:29,007 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Brutalist
+2026-03-13 10:36:29,009 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: What's Love Got to Do with It?
+2026-03-13 10:36:29,012 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Rogue Agent
+2026-03-13 10:36:29,014 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: tick, tick... BOOM!
+2026-03-13 10:36:29,016 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Players
+2026-03-13 10:36:29,018 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Not Okay
+2026-03-13 10:36:29,020 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: A Big Bold Beautiful Journey
+2026-03-13 10:36:29,022 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Daddio
+2026-03-13 10:36:29,023 - TMDbClient           - INFO  - Excluding Ballad of a Small Player due to TMDB rating below threshold of 60%.
+2026-03-13 10:36:29,025 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: The Beekeeper
+2026-03-13 10:36:29,026 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Kajillionaire
+2026-03-13 10:36:29,028 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: A Working Man
+2026-03-13 10:36:29,030 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Honest Thief
+2026-03-13 10:36:29,032 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Wolfs
+2026-03-13 10:36:29,033 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Reptile
+2026-03-13 10:36:29,035 - RecommendationAutomation - INFO  - [DRY RUN] Would request movie: Play Dirty
+2026-03-13 10:36:29,036 - RecommendationAutomation - INFO  - Total media requested: 81
+2026-03-13 10:36:29,039 - RecommendationAutomation - INFO  - [DRY RUN] Job completed: 81 would be requested
+2026-03-13 10:37:07,095 - QueueWorker          - INFO  - Queue worker: processing 25 item(s).
+2026-03-13 10:37:07,132 - SeerClient           - INFO  - Fetched all requests and saved to database.
+2026-03-13 10:37:07,147 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1263012 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,156 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,157 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1263012 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,168 - QueueWorker          - WARNING - Queue worker: movie tmdb:1263012 retry 2 scheduled at 2026-03-13 10:39:07.157814.
+2026-03-13 10:37:07,181 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1140498 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,190 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,190 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1140498 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,203 - QueueWorker          - WARNING - Queue worker: movie tmdb:1140498 retry 2 scheduled at 2026-03-13 10:39:07.191393.
+2026-03-13 10:37:07,215 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:671318 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,225 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,225 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:671318 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,236 - QueueWorker          - WARNING - Queue worker: movie tmdb:671318 retry 2 scheduled at 2026-03-13 10:39:07.226157.
+2026-03-13 10:37:07,248 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1170944 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,256 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,257 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1170944 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,268 - QueueWorker          - WARNING - Queue worker: movie tmdb:1170944 retry 2 scheduled at 2026-03-13 10:39:07.257812.
+2026-03-13 10:37:07,280 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:937220 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,289 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,290 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:937220 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,301 - QueueWorker          - WARNING - Queue worker: movie tmdb:937220 retry 2 scheduled at 2026-03-13 10:39:07.290477.
+2026-03-13 10:37:07,313 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1245993 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,322 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,323 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1245993 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,334 - QueueWorker          - WARNING - Queue worker: movie tmdb:1245993 retry 2 scheduled at 2026-03-13 10:39:07.323523.
+2026-03-13 10:37:07,349 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:800158 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,358 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,359 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:800158 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,371 - QueueWorker          - WARNING - Queue worker: movie tmdb:800158 retry 2 scheduled at 2026-03-13 10:39:07.359738.
+2026-03-13 10:37:07,385 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:681434 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,393 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,394 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:681434 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,406 - QueueWorker          - WARNING - Queue worker: movie tmdb:681434 retry 2 scheduled at 2026-03-13 10:39:07.394811.
+2026-03-13 10:37:07,420 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1013601 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,429 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,430 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1013601 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,442 - QueueWorker          - WARNING - Queue worker: movie tmdb:1013601 retry 2 scheduled at 2026-03-13 10:39:07.430762.
+2026-03-13 10:37:07,453 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1319895 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,463 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,464 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1319895 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,478 - QueueWorker          - WARNING - Queue worker: movie tmdb:1319895 retry 2 scheduled at 2026-03-13 10:39:07.464720.
+2026-03-13 10:37:07,492 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:668489 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,501 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,501 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:668489 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,512 - QueueWorker          - WARNING - Queue worker: movie tmdb:668489 retry 2 scheduled at 2026-03-13 10:39:07.501941.
+2026-03-13 10:37:07,525 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1149167 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,533 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,533 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1149167 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,551 - QueueWorker          - WARNING - Queue worker: movie tmdb:1149167 retry 2 scheduled at 2026-03-13 10:39:07.534075.
+2026-03-13 10:37:07,565 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:738652 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,575 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,575 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:738652 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,587 - QueueWorker          - WARNING - Queue worker: movie tmdb:738652 retry 2 scheduled at 2026-03-13 10:39:07.575920.
+2026-03-13 10:37:07,602 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:970347 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,611 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,612 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:970347 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,623 - QueueWorker          - WARNING - Queue worker: movie tmdb:970347 retry 2 scheduled at 2026-03-13 10:39:07.612430.
+2026-03-13 10:37:07,635 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1439112 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,644 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,644 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1439112 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,656 - QueueWorker          - WARNING - Queue worker: movie tmdb:1439112 retry 2 scheduled at 2026-03-13 10:39:07.645069.
+2026-03-13 10:37:07,670 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:628847 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,680 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,680 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:628847 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,692 - QueueWorker          - WARNING - Queue worker: movie tmdb:628847 retry 2 scheduled at 2026-03-13 10:39:07.681157.
+2026-03-13 10:37:07,710 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:280180 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,719 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,720 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:280180 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,731 - QueueWorker          - WARNING - Queue worker: movie tmdb:280180 retry 2 scheduled at 2026-03-13 10:39:07.720653.
+2026-03-13 10:37:07,743 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1106289 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,753 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,754 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1106289 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,765 - QueueWorker          - WARNING - Queue worker: movie tmdb:1106289 retry 2 scheduled at 2026-03-13 10:39:07.754444.
+2026-03-13 10:37:07,777 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1082195 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,786 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,786 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1082195 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,799 - QueueWorker          - WARNING - Queue worker: movie tmdb:1082195 retry 2 scheduled at 2026-03-13 10:39:07.786826.
+2026-03-13 10:37:07,813 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:866398 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,822 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,822 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:866398 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,833 - QueueWorker          - WARNING - Queue worker: movie tmdb:866398 retry 2 scheduled at 2026-03-13 10:39:07.822865.
+2026-03-13 10:37:07,846 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1511556 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,855 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,855 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1511556 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,866 - QueueWorker          - WARNING - Queue worker: movie tmdb:1511556 retry 2 scheduled at 2026-03-13 10:39:07.856030.
+2026-03-13 10:37:07,880 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:604685 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,889 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,889 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:604685 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,900 - QueueWorker          - WARNING - Queue worker: movie tmdb:604685 retry 2 scheduled at 2026-03-13 10:39:07.889919.
+2026-03-13 10:37:07,914 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1014590 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,923 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,923 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1014590 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,936 - QueueWorker          - WARNING - Queue worker: movie tmdb:1014590 retry 2 scheduled at 2026-03-13 10:39:07.923997.
+2026-03-13 10:37:07,951 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1267905 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,960 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,961 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1267905 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:07,971 - QueueWorker          - WARNING - Queue worker: movie tmdb:1267905 retry 2 scheduled at 2026-03-13 10:39:07.961601.
+2026-03-13 10:37:07,983 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:852247 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:37:07,991 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:37:07,992 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:852247 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:37:08,003 - QueueWorker          - WARNING - Queue worker: movie tmdb:852247 retry 2 scheduled at 2026-03-13 10:39:07.992599.
+2026-03-13 10:37:32,123 - LLMService           - WARNING - OPENAI_API_KEY is not configured. LLM recommendations will be disabled.
+2026-03-13 10:37:41,396 - JellyfinRoute        - INFO  - Received request to fetch Jellyfin libraries
+2026-03-13 10:37:41,397 - JellyfinClient       - INFO  - Searching Jellyfin libraries.
+2026-03-13 10:37:41,405 - JellyfinRoute        - INFO  - Successfully fetched 8 libraries from Jellyfin server
+2026-03-13 10:38:31,189 - LLMService           - WARNING - OPENAI_API_KEY is not configured. LLM recommendations will be disabled.
+2026-03-13 10:38:39,646 - LLMService           - WARNING - OPENAI_API_KEY is not configured. LLM recommendations will be disabled.
+2026-03-13 10:41:07,095 - QueueWorker          - INFO  - Queue worker: processing 25 item(s).
+2026-03-13 10:41:07,134 - SeerClient           - INFO  - Fetched all requests and saved to database.
+2026-03-13 10:41:07,147 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1263012 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,155 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,156 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1263012 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,166 - QueueWorker          - WARNING - Queue worker: movie tmdb:1263012 retry 3 scheduled at 2026-03-13 10:45:07.156820.
+2026-03-13 10:41:07,179 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1140498 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,187 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,188 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1140498 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,199 - QueueWorker          - WARNING - Queue worker: movie tmdb:1140498 retry 3 scheduled at 2026-03-13 10:45:07.188717.
+2026-03-13 10:41:07,218 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:671318 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,228 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,228 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:671318 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,247 - QueueWorker          - WARNING - Queue worker: movie tmdb:671318 retry 3 scheduled at 2026-03-13 10:45:07.229246.
+2026-03-13 10:41:07,267 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1170944 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,278 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,278 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1170944 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,293 - QueueWorker          - WARNING - Queue worker: movie tmdb:1170944 retry 3 scheduled at 2026-03-13 10:45:07.278940.
+2026-03-13 10:41:07,306 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:937220 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,316 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,317 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:937220 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,327 - QueueWorker          - WARNING - Queue worker: movie tmdb:937220 retry 3 scheduled at 2026-03-13 10:45:07.317559.
+2026-03-13 10:41:07,342 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1245993 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,351 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,352 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1245993 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,364 - QueueWorker          - WARNING - Queue worker: movie tmdb:1245993 retry 3 scheduled at 2026-03-13 10:45:07.353001.
+2026-03-13 10:41:07,376 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:800158 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,387 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,387 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:800158 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,398 - QueueWorker          - WARNING - Queue worker: movie tmdb:800158 retry 3 scheduled at 2026-03-13 10:45:07.387957.
+2026-03-13 10:41:07,411 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:681434 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,421 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,421 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:681434 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,432 - QueueWorker          - WARNING - Queue worker: movie tmdb:681434 retry 3 scheduled at 2026-03-13 10:45:07.422278.
+2026-03-13 10:41:07,445 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1013601 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,456 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,457 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1013601 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,468 - QueueWorker          - WARNING - Queue worker: movie tmdb:1013601 retry 3 scheduled at 2026-03-13 10:45:07.457564.
+2026-03-13 10:41:07,480 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1319895 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,489 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,489 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1319895 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,502 - QueueWorker          - WARNING - Queue worker: movie tmdb:1319895 retry 3 scheduled at 2026-03-13 10:45:07.490091.
+2026-03-13 10:41:07,515 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:668489 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,524 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,524 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:668489 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,536 - QueueWorker          - WARNING - Queue worker: movie tmdb:668489 retry 3 scheduled at 2026-03-13 10:45:07.525405.
+2026-03-13 10:41:07,549 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1149167 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,558 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,558 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1149167 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,569 - QueueWorker          - WARNING - Queue worker: movie tmdb:1149167 retry 3 scheduled at 2026-03-13 10:45:07.558939.
+2026-03-13 10:41:07,582 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:738652 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,592 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,592 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:738652 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,603 - QueueWorker          - WARNING - Queue worker: movie tmdb:738652 retry 3 scheduled at 2026-03-13 10:45:07.592897.
+2026-03-13 10:41:07,616 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:970347 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,624 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,625 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:970347 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,635 - QueueWorker          - WARNING - Queue worker: movie tmdb:970347 retry 3 scheduled at 2026-03-13 10:45:07.625704.
+2026-03-13 10:41:07,650 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1439112 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,660 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,660 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1439112 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,674 - QueueWorker          - WARNING - Queue worker: movie tmdb:1439112 retry 3 scheduled at 2026-03-13 10:45:07.661250.
+2026-03-13 10:41:07,687 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:628847 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,696 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,696 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:628847 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,713 - QueueWorker          - WARNING - Queue worker: movie tmdb:628847 retry 3 scheduled at 2026-03-13 10:45:07.697360.
+2026-03-13 10:41:07,726 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:280180 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,735 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,735 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:280180 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,747 - QueueWorker          - WARNING - Queue worker: movie tmdb:280180 retry 3 scheduled at 2026-03-13 10:45:07.736339.
+2026-03-13 10:41:07,764 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1106289 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,772 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,773 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1106289 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,789 - QueueWorker          - WARNING - Queue worker: movie tmdb:1106289 retry 3 scheduled at 2026-03-13 10:45:07.773762.
+2026-03-13 10:41:07,804 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1082195 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,813 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,813 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1082195 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,827 - QueueWorker          - WARNING - Queue worker: movie tmdb:1082195 retry 3 scheduled at 2026-03-13 10:45:07.814184.
+2026-03-13 10:41:07,840 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:866398 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,849 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,849 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:866398 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,860 - QueueWorker          - WARNING - Queue worker: movie tmdb:866398 retry 3 scheduled at 2026-03-13 10:45:07.849822.
+2026-03-13 10:41:07,874 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1511556 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,885 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,885 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1511556 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,898 - QueueWorker          - WARNING - Queue worker: movie tmdb:1511556 retry 3 scheduled at 2026-03-13 10:45:07.886028.
+2026-03-13 10:41:07,912 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:604685 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,921 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,922 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:604685 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,941 - QueueWorker          - WARNING - Queue worker: movie tmdb:604685 retry 3 scheduled at 2026-03-13 10:45:07.922380.
+2026-03-13 10:41:07,956 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1014590 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:07,965 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:07,965 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1014590 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:07,977 - QueueWorker          - WARNING - Queue worker: movie tmdb:1014590 retry 3 scheduled at 2026-03-13 10:45:07.966031.
+2026-03-13 10:41:07,991 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1267905 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:08,000 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:08,000 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1267905 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:08,012 - QueueWorker          - WARNING - Queue worker: movie tmdb:1267905 retry 3 scheduled at 2026-03-13 10:45:08.000995.
+2026-03-13 10:41:08,025 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:852247 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:41:08,034 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:41:08,035 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:852247 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:41:08,046 - QueueWorker          - WARNING - Queue worker: movie tmdb:852247 retry 3 scheduled at 2026-03-13 10:45:08.035503.
+2026-03-13 10:47:07,095 - QueueWorker          - INFO  - Queue worker: processing 25 item(s).
+2026-03-13 10:47:07,134 - SeerClient           - INFO  - Fetched all requests and saved to database.
+2026-03-13 10:47:07,151 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1263012 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,161 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,162 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1263012 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,176 - QueueWorker          - WARNING - Queue worker: movie tmdb:1263012 retry 4 scheduled at 2026-03-13 10:55:07.162732.
+2026-03-13 10:47:07,190 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1140498 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,201 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,201 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1140498 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,215 - QueueWorker          - WARNING - Queue worker: movie tmdb:1140498 retry 4 scheduled at 2026-03-13 10:55:07.202010.
+2026-03-13 10:47:07,229 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:671318 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,238 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,239 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:671318 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,253 - QueueWorker          - WARNING - Queue worker: movie tmdb:671318 retry 4 scheduled at 2026-03-13 10:55:07.239714.
+2026-03-13 10:47:07,270 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1170944 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,280 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,281 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1170944 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,295 - QueueWorker          - WARNING - Queue worker: movie tmdb:1170944 retry 4 scheduled at 2026-03-13 10:55:07.281460.
+2026-03-13 10:47:07,311 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:937220 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,320 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,321 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:937220 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,337 - QueueWorker          - WARNING - Queue worker: movie tmdb:937220 retry 4 scheduled at 2026-03-13 10:55:07.321553.
+2026-03-13 10:47:07,354 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1245993 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,364 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,364 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1245993 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,377 - QueueWorker          - WARNING - Queue worker: movie tmdb:1245993 retry 4 scheduled at 2026-03-13 10:55:07.364940.
+2026-03-13 10:47:07,392 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:800158 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,400 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,401 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:800158 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,414 - QueueWorker          - WARNING - Queue worker: movie tmdb:800158 retry 4 scheduled at 2026-03-13 10:55:07.401409.
+2026-03-13 10:47:07,429 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:681434 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,438 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,438 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:681434 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,452 - QueueWorker          - WARNING - Queue worker: movie tmdb:681434 retry 4 scheduled at 2026-03-13 10:55:07.439276.
+2026-03-13 10:47:07,469 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1013601 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,478 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,479 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1013601 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,496 - QueueWorker          - WARNING - Queue worker: movie tmdb:1013601 retry 4 scheduled at 2026-03-13 10:55:07.479399.
+2026-03-13 10:47:07,517 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1319895 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,526 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,526 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1319895 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,541 - QueueWorker          - WARNING - Queue worker: movie tmdb:1319895 retry 4 scheduled at 2026-03-13 10:55:07.527005.
+2026-03-13 10:47:07,557 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:668489 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,566 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,566 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:668489 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,584 - QueueWorker          - WARNING - Queue worker: movie tmdb:668489 retry 4 scheduled at 2026-03-13 10:55:07.566957.
+2026-03-13 10:47:07,607 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1149167 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,615 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,616 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1149167 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,627 - QueueWorker          - WARNING - Queue worker: movie tmdb:1149167 retry 4 scheduled at 2026-03-13 10:55:07.616807.
+2026-03-13 10:47:07,638 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:738652 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,647 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,648 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:738652 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,662 - QueueWorker          - WARNING - Queue worker: movie tmdb:738652 retry 4 scheduled at 2026-03-13 10:55:07.648743.
+2026-03-13 10:47:07,675 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:970347 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,684 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,685 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:970347 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,695 - QueueWorker          - WARNING - Queue worker: movie tmdb:970347 retry 4 scheduled at 2026-03-13 10:55:07.685640.
+2026-03-13 10:47:07,707 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1439112 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,715 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,716 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1439112 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,726 - QueueWorker          - WARNING - Queue worker: movie tmdb:1439112 retry 4 scheduled at 2026-03-13 10:55:07.716676.
+2026-03-13 10:47:07,739 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:628847 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,747 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,748 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:628847 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,759 - QueueWorker          - WARNING - Queue worker: movie tmdb:628847 retry 4 scheduled at 2026-03-13 10:55:07.748727.
+2026-03-13 10:47:07,773 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:280180 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,781 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,781 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:280180 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,793 - QueueWorker          - WARNING - Queue worker: movie tmdb:280180 retry 4 scheduled at 2026-03-13 10:55:07.782062.
+2026-03-13 10:47:07,806 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1106289 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,815 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,815 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1106289 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,827 - QueueWorker          - WARNING - Queue worker: movie tmdb:1106289 retry 4 scheduled at 2026-03-13 10:55:07.815944.
+2026-03-13 10:47:07,839 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1082195 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,848 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,848 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1082195 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,869 - QueueWorker          - WARNING - Queue worker: movie tmdb:1082195 retry 4 scheduled at 2026-03-13 10:55:07.848931.
+2026-03-13 10:47:07,889 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:866398 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,898 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,898 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:866398 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,914 - QueueWorker          - WARNING - Queue worker: movie tmdb:866398 retry 4 scheduled at 2026-03-13 10:55:07.899248.
+2026-03-13 10:47:07,926 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1511556 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,935 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,935 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1511556 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,945 - QueueWorker          - WARNING - Queue worker: movie tmdb:1511556 retry 4 scheduled at 2026-03-13 10:55:07.936127.
+2026-03-13 10:47:07,957 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:604685 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:07,965 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:07,966 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:604685 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:07,978 - QueueWorker          - WARNING - Queue worker: movie tmdb:604685 retry 4 scheduled at 2026-03-13 10:55:07.966579.
+2026-03-13 10:47:07,990 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1014590 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:08,000 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:08,000 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1014590 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:08,010 - QueueWorker          - WARNING - Queue worker: movie tmdb:1014590 retry 4 scheduled at 2026-03-13 10:55:08.000981.
+2026-03-13 10:47:08,026 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1267905 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:08,036 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:08,037 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1267905 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:08,048 - QueueWorker          - WARNING - Queue worker: movie tmdb:1267905 retry 4 scheduled at 2026-03-13 10:55:08.037815.
+2026-03-13 10:47:08,060 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:852247 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:47:08,069 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:47:08,070 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:852247 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:47:08,082 - QueueWorker          - WARNING - Queue worker: movie tmdb:852247 retry 4 scheduled at 2026-03-13 10:55:08.071006.
+2026-03-13 10:57:07,095 - QueueWorker          - INFO  - Queue worker: processing 25 item(s).
+2026-03-13 10:57:07,142 - SeerClient           - INFO  - Fetched all requests and saved to database.
+2026-03-13 10:57:07,158 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1263012 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,168 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,169 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1263012 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,179 - QueueWorker          - ERROR - Queue worker: movie tmdb:1263012 permanently failed after 5 retries.
+2026-03-13 10:57:07,192 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1140498 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,200 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,201 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1140498 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,213 - QueueWorker          - ERROR - Queue worker: movie tmdb:1140498 permanently failed after 5 retries.
+2026-03-13 10:57:07,225 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:671318 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,235 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,235 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:671318 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,247 - QueueWorker          - ERROR - Queue worker: movie tmdb:671318 permanently failed after 5 retries.
+2026-03-13 10:57:07,259 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1170944 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,269 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,270 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1170944 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,280 - QueueWorker          - ERROR - Queue worker: movie tmdb:1170944 permanently failed after 5 retries.
+2026-03-13 10:57:07,292 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:937220 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,303 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,303 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:937220 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,313 - QueueWorker          - ERROR - Queue worker: movie tmdb:937220 permanently failed after 5 retries.
+2026-03-13 10:57:07,325 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1245993 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,336 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,336 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1245993 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,346 - QueueWorker          - ERROR - Queue worker: movie tmdb:1245993 permanently failed after 5 retries.
+2026-03-13 10:57:07,357 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:800158 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,366 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,367 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:800158 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,377 - QueueWorker          - ERROR - Queue worker: movie tmdb:800158 permanently failed after 5 retries.
+2026-03-13 10:57:07,388 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:681434 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,401 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,401 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:681434 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,411 - QueueWorker          - ERROR - Queue worker: movie tmdb:681434 permanently failed after 5 retries.
+2026-03-13 10:57:07,422 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1013601 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,432 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,432 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1013601 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,443 - QueueWorker          - ERROR - Queue worker: movie tmdb:1013601 permanently failed after 5 retries.
+2026-03-13 10:57:07,454 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1319895 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,464 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,464 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1319895 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,476 - QueueWorker          - ERROR - Queue worker: movie tmdb:1319895 permanently failed after 5 retries.
+2026-03-13 10:57:07,488 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:668489 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,497 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,497 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:668489 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,508 - QueueWorker          - ERROR - Queue worker: movie tmdb:668489 permanently failed after 5 retries.
+2026-03-13 10:57:07,522 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1149167 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,532 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,532 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1149167 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,544 - QueueWorker          - ERROR - Queue worker: movie tmdb:1149167 permanently failed after 5 retries.
+2026-03-13 10:57:07,557 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:738652 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,567 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,567 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:738652 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,580 - QueueWorker          - ERROR - Queue worker: movie tmdb:738652 permanently failed after 5 retries.
+2026-03-13 10:57:07,593 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:970347 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,602 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,603 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:970347 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,614 - QueueWorker          - ERROR - Queue worker: movie tmdb:970347 permanently failed after 5 retries.
+2026-03-13 10:57:07,625 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1439112 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,635 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,635 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1439112 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,645 - QueueWorker          - ERROR - Queue worker: movie tmdb:1439112 permanently failed after 5 retries.
+2026-03-13 10:57:07,658 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:628847 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,668 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,668 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:628847 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,678 - QueueWorker          - ERROR - Queue worker: movie tmdb:628847 permanently failed after 5 retries.
+2026-03-13 10:57:07,690 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:280180 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,698 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,698 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:280180 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,708 - QueueWorker          - ERROR - Queue worker: movie tmdb:280180 permanently failed after 5 retries.
+2026-03-13 10:57:07,721 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1106289 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,730 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,731 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1106289 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,745 - QueueWorker          - ERROR - Queue worker: movie tmdb:1106289 permanently failed after 5 retries.
+2026-03-13 10:57:07,758 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1082195 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,770 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,770 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1082195 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,783 - QueueWorker          - ERROR - Queue worker: movie tmdb:1082195 permanently failed after 5 retries.
+2026-03-13 10:57:07,794 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:866398 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,803 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,803 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:866398 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,815 - QueueWorker          - ERROR - Queue worker: movie tmdb:866398 permanently failed after 5 retries.
+2026-03-13 10:57:07,828 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1511556 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,836 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,837 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1511556 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,850 - QueueWorker          - ERROR - Queue worker: movie tmdb:1511556 permanently failed after 5 retries.
+2026-03-13 10:57:07,861 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:604685 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,870 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,871 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:604685 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,881 - QueueWorker          - ERROR - Queue worker: movie tmdb:604685 permanently failed after 5 retries.
+2026-03-13 10:57:07,893 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1014590 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,902 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,902 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1014590 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,913 - QueueWorker          - ERROR - Queue worker: movie tmdb:1014590 permanently failed after 5 retries.
+2026-03-13 10:57:07,925 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:1267905 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,935 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,935 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:1267905 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,946 - QueueWorker          - ERROR - Queue worker: movie tmdb:1267905 permanently failed after 5 retries.
+2026-03-13 10:57:07,962 - SeerClient           - WARNING - profileId or rootFolder missing for movie tmdb:852247 (serverId=None) — fetching defaults from Jellyseerr.
+2026-03-13 10:57:07,971 - SeerClient           - WARNING - No Radarr servers found while fetching defaults.
+2026-03-13 10:57:07,971 - SeerClient           - ERROR - Cannot submit Jellyseerr request for movie tmdb:852247 — profileId is missing (serverId=None, rootFolder=None). Configure a valid profileId in your anime/default profile settings.
+2026-03-13 10:57:07,981 - QueueWorker          - ERROR - Queue worker: movie tmdb:852247 permanently failed after 5 retries.
+2026-03-13 11:14:44,378 - TMDBRoute            - ERROR - Error fetching popular movies: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client_reqrep.py", line 539, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/streams.py", line 703, in read
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/api_service/blueprints/tmdb/routes.py", line 175, in get_popular_movies
+    data, status = _run(
+                   ~~~~^
+        _fetch_tmdb('/movie/popular', api_key, {'page': page, 'include_adult': include_adult})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/app/api_service/blueprints/tmdb/routes.py", line 79, in _run
+    return run_async(coro)
+  File "/app/api_service/blueprints/jobs/routes.py", line 32, in run_async
+    return asyncio.run(coro)
+           ~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/api_service/blueprints/tmdb/routes.py", line 70, in _fetch_tmdb
+    async with session.get(url, params=qs) as resp:
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 1510, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 757, in _connect_and_send_request
+    await resp.start(conn)
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client_reqrep.py", line 534, in start
+    with self._timer:
+         ^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/helpers.py", line 713, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError
+2026-03-13 11:15:01,378 - TMDBRoute            - ERROR - Error fetching popular movies: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 779, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 1580, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/connector.py", line 1313, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 1201, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        ssl_shutdown_timeout=ssl_shutdown_timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 1234, in _create_connection_transport
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/api_service/blueprints/tmdb/routes.py", line 175, in get_popular_movies
+    data, status = _run(
+                   ~~~~^
+        _fetch_tmdb('/movie/popular', api_key, {'page': page, 'include_adult': include_adult})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/app/api_service/blueprints/tmdb/routes.py", line 79, in _run
+    return run_async(coro)
+  File "/app/api_service/blueprints/jobs/routes.py", line 32, in run_async
+    return asyncio.run(coro)
+           ~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/app/api_service/blueprints/tmdb/routes.py", line 70, in _fetch_tmdb
+    async with session.get(url, params=qs) as resp:
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 1510, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/client.py", line 624, in _request
+    with timer:
+         ^^^^^
+  File "/usr/local/lib/python3.13/site-packages/aiohttp/helpers.py", line 713, in __exit__
+    raise asyncio.TimeoutError from exc_val
+TimeoutError

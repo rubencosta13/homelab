@@ -1,0 +1,9 @@
+2025-07-09 02:49:57.713 UTC [10472] ERROR:  duplicate key value violates unique constraint "UQ_assets_owner_checksum"
+2025-07-09 02:49:57.713 UTC [10472] DETAIL:  Key ("ownerId", checksum)=(f0cbb11a-54ef-4fcd-916a-c70f0d1e5524, \x820da826c9e1e29ee83e9f74ba1844f14e224380) already exists.
+2025-07-09 02:49:57.713 UTC [10472] STATEMENT:  insert into "assets" ("ownerId", "libraryId", "checksum", "originalPath", "deviceAssetId", "deviceId", "fileCreatedAt", "fileModifiedAt", "localDateTime", "type", "isFavorite", "duration", "visibility", "originalFileName") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) returning *
+2025-07-09 02:49:58.030 UTC [10472] ERROR:  duplicate key value violates unique constraint "UQ_assets_owner_checksum"
+2025-07-09 02:49:58.030 UTC [10472] DETAIL:  Key ("ownerId", checksum)=(f0cbb11a-54ef-4fcd-916a-c70f0d1e5524, \x698d73914e9496ecdb57bbb105eae5b2304714d8) already exists.
+2025-07-09 02:49:58.030 UTC [10472] STATEMENT:  insert into "assets" ("ownerId", "libraryId", "checksum", "originalPath", "deviceAssetId", "deviceId", "fileCreatedAt", "fileModifiedAt", "localDateTime", "type", "isFavorite", "duration", "visibility", "livePhotoVideoId", "originalFileName") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) returning *
+2025-07-09 02:49:59.440 UTC [10472] ERROR:  duplicate key value violates unique constraint "UQ_assets_owner_checksum"
+2025-07-09 02:49:59.440 UTC [10472] DETAIL:  Key ("ownerId", checksum)=(f0cbb11a-54ef-4fcd-916a-c70f0d1e5524, \xff6eb17ede61fd681dec5c8e4338d064237730f3) already exists.
+2025-07-09 02:49:59.440 UTC [10472] STATEMENT:  insert into "assets" ("ownerId", "libraryId", "checksum", "originalPath", "deviceAssetId", "deviceId", "fileCreatedAt", "fileModifiedAt", "localDateTime", "type", "isFavorite", "duration", "visibility", "originalFileName") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14) returning *

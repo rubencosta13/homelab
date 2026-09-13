@@ -1,0 +1,22 @@
+2026-02-17 12:54:46.342 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2026-02-17 12:54:46.343 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2026-02-17 12:54:46.344 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2026-02-17 12:54:48.037 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2026-02-17 12:54:51.307 UTC [28] LOG:  database system was interrupted; last known up at 2026-02-14 00:06:52 UTC
+[2026-02-17T12:54:51Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2026-02-17T12:54:51Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2026-02-17T12:54:51Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/71c2a884-29b7-4e33-a945-28dfac840a67".
+[2026-02-17T12:54:52Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+2026-02-17 12:55:12.030 UTC [49] FATAL:  the database system is starting up
+2026-02-17 12:55:33.382 UTC [50] FATAL:  the database system is starting up
+2026-02-17 12:55:42.417 UTC [58] FATAL:  the database system is starting up
+2026-02-17 12:55:50.453 UTC [28] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-02-17 12:55:50.504 UTC [28] LOG:  redo starts at 0/9AC94578
+2026-02-17 12:55:50.504 UTC [28] LOG:  invalid record length at 0/9AC94660: wanted 24, got 0
+2026-02-17 12:55:50.504 UTC [28] LOG:  redo done at 0/9AC94628 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-02-17 12:55:51.052 UTC [1] LOG:  database system is ready to accept connections
+2026-02-17 22:58:39.548 UTC [1] LOG:  received fast shutdown request
+2026-02-17 22:58:40.388 UTC [1] LOG:  aborting any active transactions
+2026-02-17 22:58:40.394 UTC [1] LOG:  background worker "logical replication launcher" (PID 64) exited with exit code 1
+2026-02-17 22:58:40.429 UTC [59] LOG:  shutting down
+2026-02-17 22:58:42.002 UTC [1] LOG:  database system is shut down

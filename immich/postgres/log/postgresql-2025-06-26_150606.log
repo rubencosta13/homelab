@@ -1,0 +1,22 @@
+2025-06-26 15:06:06.547 UTC [1] LOG:  starting PostgreSQL 14.17 (Debian 14.17-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2025-06-26 15:06:06.553 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-06-26 15:06:06.553 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2025-06-26 15:06:07.164 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-06-26 15:06:10.987 UTC [28] LOG:  database system was interrupted; last known up at 2025-06-26 15:07:05 UTC
+[2025-06-26T15:06:11Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2025-06-26T15:06:11Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2025-06-26T15:06:11Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/a2b3c4a6-8223-41fe-a99f-c47b7f1b8a1c".
+[2025-06-26T15:06:14Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/71c2a884-29b7-4e33-a945-28dfac840a67".
+2025-06-26 15:06:29.923 UTC [49] FATAL:  the database system is starting up
+2025-06-26 15:07:00.238 UTC [57] FATAL:  the database system is starting up
+2025-06-26 15:07:01.491 UTC [58] FATAL:  the database system is starting up
+2025-06-26 15:07:03.095 UTC [28] LOG:  database system was not properly shut down; automatic recovery in progress
+2025-06-26 15:07:03.103 UTC [28] LOG:  redo starts at 0/AB50AAC0
+2025-06-26 15:07:03.103 UTC [28] LOG:  invalid record length at 0/AB50AAF8: wanted 24, got 0
+2025-06-26 15:07:03.103 UTC [28] LOG:  redo done at 0/AB50AAC0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2025-06-26 15:07:03.302 UTC [1] LOG:  database system is ready to accept connections
+2025-06-26 15:07:23.175 UTC [71] LOG:  could not send data to client: Broken pipe
+2025-06-26 15:07:23.175 UTC [71] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2025-06-26 15:07:23.175 UTC [71] FATAL:  connection to client lost
+2025-06-26 15:07:23.175 UTC [71] STATEMENT:  select "a"."attname" as "column", "a"."attnotnull" as "not_null", "a"."atthasdef" as "has_default", "c"."relname" as "table", "c"."relkind" as "table_type", "ns"."nspname" as "schema", "typ"."typname" as "type", "dtns"."nspname" as "type_schema", col_description(a.attrelid, a.attnum) as "column_description", pg_get_serial_sequence(quote_ident(ns.nspname) || '.' || quote_ident(c.relname), a.attname) as "auto_incrementing" from "pg_catalog"."pg_attribute" as "a" inner join "pg_catalog"."pg_class" as "c" on "a"."attrelid" = "c"."oid" inner join "pg_catalog"."pg_namespace" as "ns" on "c"."relnamespace" = "ns"."oid" inner join "pg_catalog"."pg_type" as "typ" on "a"."atttypid" = "typ"."oid" inner join "pg_catalog"."pg_namespace" as "dtns" on "typ"."typnamespace" = "dtns"."oid" where "c"."relkind" in ($1, $2, $3) and "ns"."nspname" !~ $4 and "ns"."nspname" != $5 and "ns"."nspname" != $6 and has_schema_privilege(ns.nspname, 'USAGE') and "a"."attnum" >= $7 and "a"."attisdropped" != $8 order by "ns"."nspname", "c"."relname", "a"."attnum"
+2026-05-02 15:23:17.723 UTC [471] LOG:  could not receive data from client: Connection reset by peer

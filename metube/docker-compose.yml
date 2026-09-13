@@ -1,0 +1,28 @@
+services:
+  metube:
+    image: ghcr.io/alexta69/metube:latest
+    container_name: metube
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - CREATE_CUSTOM_DIRS=true
+      - STATE_DIR=/config
+    volumes:
+      - /mnt/#NAS/#Media:/downloads
+      - ./config:/config
+    networks:
+      - nginx_default
+    ports:
+      - 9991:8081
+    dns:
+      - 1.1.1.1
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 1G
+
+networks:
+  nginx_default:
+    external: true

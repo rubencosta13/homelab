@@ -1,0 +1,15 @@
+2025-01-05 11:17:27.153 UTC [1] LOG:  starting PostgreSQL 14.10 (Debian 14.10-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2025-01-05 11:17:27.154 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-01-05 11:17:27.155 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2025-01-05 11:17:27.161 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-01-05 11:17:27.171 UTC [28] LOG:  database system was shut down at 2025-01-05 11:17:21 UTC
+[2025-01-05T11:17:27Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2025-01-05T11:17:27Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2025-01-05T11:17:27Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/b86b5b9f-2c7a-4bcb-a3eb-2eaab694b258".
+2025-01-05 11:17:27.197 UTC [1] LOG:  database system is ready to accept connections
+[2025-01-05T11:17:27Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/73d40f54-276e-4f56-bf6e-bd80be74d547".
+2025-01-05 11:19:29.346 UTC [1] LOG:  received fast shutdown request
+2025-01-05 11:19:29.349 UTC [1] LOG:  aborting any active transactions
+2025-01-05 11:19:29.353 UTC [1] LOG:  background worker "logical replication launcher" (PID 35) exited with exit code 1
+2025-01-05 11:19:29.356 UTC [30] LOG:  shutting down
+2025-01-05 11:19:29.417 UTC [1] LOG:  database system is shut down

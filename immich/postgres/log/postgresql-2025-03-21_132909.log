@@ -1,0 +1,26 @@
+2025-03-21 13:29:09.299 UTC [1] LOG:  starting PostgreSQL 14.10 (Debian 14.10-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2025-03-21 13:29:09.299 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-03-21 13:29:09.299 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2025-03-21 13:29:09.307 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-03-21 13:29:09.328 UTC [28] LOG:  database system was shut down at 2025-02-26 15:00:59 UTC
+[2025-03-21T13:29:09Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576".
+[2025-03-21T13:29:09Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2025-03-21T13:29:09Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/85b8eee0-acbf-4b74-92da-e3c3444989a2".
+2025-03-21 13:29:09.435 UTC [1] LOG:  database system is ready to accept connections
+[2025-03-21T13:29:09Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17576/segments/ec5851a2-765e-4777-91d5-b65e85445b97".
+2025-03-21 13:29:57.266 UTC [1] LOG:  received fast shutdown request
+2025-03-21 13:29:57.635 UTC [1] LOG:  aborting any active transactions
+2025-03-21 13:29:57.641 UTC [60] FATAL:  terminating connection due to administrator command
+2025-03-21 13:29:57.641 UTC [60] STATEMENT:  create index "idx_geodata_places_country_code_d2ccc485_7f28_41c6_bdd4_809508b9f296" on "geodata_places_tmp" using gin (f_unaccent("admin1Name") gin_trgm_ops)
+2025-03-21 13:29:57.641 UTC [1] LOG:  background worker "logical replication launcher" (PID 35) exited with exit code 1
+2025-03-21 13:29:57.641 UTC [59] FATAL:  terminating connection due to administrator command
+2025-03-21 13:29:57.641 UTC [59] STATEMENT:  
+	        CREATE INDEX IDX_geodata_gist_earthcoord_2d875cf8_bb6d_4ee6_b070_a6c726c13ee6
+	                ON geodata_places_tmp
+	                USING gist (ll_to_earth_public(latitude, longitude))
+	                WITH (fillfactor = 100)
+	      
+2025-03-21 13:29:57.641 UTC [65] FATAL:  terminating connection due to administrator command
+2025-03-21 13:29:57.641 UTC [65] STATEMENT:  ALTER TABLE geodata_places_tmp ADD PRIMARY KEY (id) WITH (FILLFACTOR = 100)
+2025-03-21 13:29:57.641 UTC [57] FATAL:  terminating connection due to administrator command
+2025-03-21 13:29:57.641 UTC [57] STATEMENT:  create index "idx_geodata_places_admin2_name_e559ae2b_6de2_47db_a869_e2c6ea37eb8d" on "geodata_places_tmp" using gin (f_unaccent("admin2Name") gin_trgm_ops)

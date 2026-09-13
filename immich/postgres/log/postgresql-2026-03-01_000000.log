@@ -1,0 +1,2 @@
+2026-03-01 12:02:16.704 UTC [4559] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2026-03-01 12:02:16.704 UTC [4559] STATEMENT:  SELECT COALESCE(SUM(checksum_failures), 0) FROM pg_stat_database

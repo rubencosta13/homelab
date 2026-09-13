@@ -1,0 +1,26 @@
+
+services:
+  watchtower:
+    image: nickfedor/watchtower:latest
+    container_name: watchtower
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - nginx_default
+    environment:
+      - WATCHTOWER_CLEANUP=true         # Automatically remove old images
+      - WATCHTOWER_ROLLING=true        # Enable rolling updates
+      - WATCHTOWER_POLL_INTERVAL=43200 # Check every 12 hours (in seconds)
+      - WATCHTOWER_DEBUG=false         # Disable debug logs
+      - WATCHTOWER_STOP_GRACE_PERIOD=30s  # Grace period for stopping containers
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+
+networks:
+  nginx_default:
+    external: true
+

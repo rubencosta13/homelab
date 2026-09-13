@@ -1,0 +1,12 @@
+streams:
+  balcony:
+    - rtspx://10.13.13.1:7441/TITBrvL13DSC85od
+  front:
+    - rtspx://10.13.13.1:7441/M4fhdhESTGftkZnc
+
+ffmpeg:
+  hwaccel: auto             # Use hardware acceleration (Intel/Nvidia/Raspberry Pi, etc.)
+  input_buffer: 0           # Disable input buffer for lower latency
+  analyze_duration: 0       # Speed up stream detection
+  probe_size: 32k           # Reduce probe delay
+  rtsp_transport: tcp       # More stable than UDP for RTSP cameras
