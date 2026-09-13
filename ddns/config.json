@@ -2,7 +2,7 @@
   "cloudflare": [
     {
       "authentication": {
-        "api_token": "BmjE3mTY_aC3Pl8IUP1O2oua0lUBo-f-_YzuSeS6"
+        "api_token": "TOKEN_ROTATED"
       },
       "zone_id": "de9f562080053516eb52a6a1fb67551d",
       "subdomains": [

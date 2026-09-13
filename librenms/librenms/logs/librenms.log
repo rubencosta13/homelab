@@ -2,3 +2,8 @@
 #1 /opt/librenms/includes/syslog.php(60): get_cache()
 #2 /opt/librenms/syslog.php(18): process_syslog()
 #3 {main}  
+[2026-09-13T15:06:30][ALERT] INFO: device:discover 10.0.0.1 (1) discovered in 3.548s  
+[2026-09-13T15:06:33][ALERT] INFO: device:poll 10.0.0.1 (1) polled in 2.217s  
+[2026-09-13T15:11:11][ALERT] INFO: device:discover 10.0.0.1 (1) discovered in 1.236s  
+[2026-09-13T15:11:33][ALERT] INFO: device:poll 10.0.0.1 (1) polled in 1.324s  
+[2026-09-13T15:12:36][ALERT] INFO: device:poll 10.0.0.1 (1) polled in 1.284s  
